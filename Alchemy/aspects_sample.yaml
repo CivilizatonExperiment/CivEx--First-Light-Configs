@@ -1,0 +1,17 @@
+exampleitem1:
+  name: '&eExample Item 1'
+  aspects:
+    MUNDANE_FIRE: 1
+    MUNDANE_EARTH: 2
+    MUNDANE_LIFE: 3
+    MUNDANE_DEATH: 4
+    MUNDANE_CORRUPT: 5
+    MUNDANE_AIR: 6
+    MUNDANE_PSIONIC: 7
+    MUNDANE_ARCANE: 8
+exampleitem2:
+  name: '&eExample Item 2'
+  aspects:
+    MUNDANE_LIFE: 42
+    MUNDANE_CORRUPT: 6
+    MUNDANE_AIR: 20

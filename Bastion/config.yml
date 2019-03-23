@@ -1,0 +1,143 @@
+commonSettings:
+  cancelReinforcementModeInBastionField: false
+  listBastionTimeout: 2000
+bastions:
+#The first bastion in this list will be used as the default type
+#This only really matters the first time your start it up when converting from old bastion
+#All bastions in the db will be flagged as, in this instance, citybastion
+  citybastion:
+    block:
+      material: SPONGE
+      durability: 0
+      name: City Bastion
+      lore:
+      - Tier 2 Bastion
+    shortName: City
+    squarefield: true
+    effectRadius: 50
+    includeY: true
+    startScaleFactor: 100
+    finalScaleFactor: 0.2
+    warmupTime: 172800
+    erosionPerDay: 0
+    regenPerDay: 400
+    blocksToErode: -1
+    placementCooldown: 60
+    destroyOnRemove: false
+    onlyDirectDestroy: false
+    pearls:
+      block: false
+      blockMidair: false
+      scaleFactor: 1
+      requireMaturity: true
+      consumeOnBlock: false
+      damageFirstBastion: false
+    elytra:
+      block: true
+      scaleFactor: 1
+      requireMaturity: true
+      destroyOnBlock: false
+      damageOnBlock: true
+      explodeOnBlock: true
+      explodeOnBlockStrength: 0
+  townbastion:
+    block:
+      material: SPONGE
+      durability: 0
+      name: Town Bastion
+      lore:
+      - Tier 1 Bastion
+    shortName: Town
+    squarefield: true
+    effectRadius: 30
+    includeY: true
+    startScaleFactor: 100
+    finalScaleFactor: 0.5
+    warmupTime: 86400
+    erosionPerDay: 0
+    regenPerDay: 200
+    blocksToErode: -1
+    placementCooldown: 60
+    destroyOnRemove: false
+    onlyDirectDestroy: false
+    pearls:
+      block: false
+      blockMidair: false
+      scaleFactor: 1
+      requireMaturity: true
+      consumeOnBlock: false
+      damageFirstBastion: false
+    elytra:
+      block: true
+      scaleFactor: 1
+      requireMaturity: true
+      destroyOnBlock: false
+      damageOnBlock: true
+      explodeOnBlock: true
+      explodeOnBlockStrength: 0
+  claimbastion:
+    block:
+      material: SPONGE
+      durability: 0
+      name: Claim Bastion
+      lore:
+      - Tier 1 Bastion
+    squarefield: true
+    effectRadius: 100
+    includeY: true
+    startScaleFactor: 100
+    finalScaleFactor: 0.5
+    warmupTime: 259200
+    erosionPerDay: 0
+    regenPerDay: 0
+    blocksToErode: -1
+    placementCooldown: 60
+    destroyOnRemove: false
+    onlyDirectDestroy: true
+    pearls:
+      block: false
+      blockMidair: false
+      scaleFactor: 1
+      requireMaturity: true
+      consumeOnBlock: false
+      damageFirstBastion: false
+    elytra:
+      block: false
+      scaleFactor: 1
+      requireMaturity: true
+      destroyOnBlock: false
+      damageOnBlock: true
+      explodeOnBlock: true
+      explodeOnBlockStrength: 0
+  vault_bastion:
+    block:
+      material: SPONGE
+      durability: 0
+      name: §eVault Bastion
+    squarefield: true
+    effectRadius: 10
+    includeY: true
+    startScaleFactor: 100
+    finalScaleFactor: 0.2
+    warmupTime: 259200
+    erosionPerDay: 0
+    regenPerDay: 600
+    blocksToErode: -1
+    placementCooldown: 600
+    destroyOnRemove: true
+    onlyDirectDestroy: false
+    pearls:
+      block: true
+      blockMidair: true
+      scaleFactor: 2
+      requireMaturity: true
+      consumeOnBlock: true
+      damageFirstBastion: true
+    elytra:
+      block: true
+      scaleFactor: 1
+      requireMaturity: true
+      destroyOnBlock: true
+      damageOnBlock: false
+      explodeOnBlock: true
+      explodeOnBlockStrength: 0

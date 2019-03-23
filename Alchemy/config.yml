@@ -1,0 +1,42 @@
+item_materials:
+  resonator_item: WATCH
+constants:
+  bad_aspect_tolerance: 2
+  ingredients_minimum: 3
+  alembic_tick_time: 1200
+  additional_aspect_tolerance: 1
+  shaman_sap_value: 6
+names:
+  aspect_admin_tool: §cSecret Admin Aspect Tool
+  alembic_furnace_name: §9Alembic Bellows
+  debug_item: §cAdmin Debug Tool
+  alembic_brewingstand_name: §9Alembic Stand
+  shaman_sap_name: §eShaman Sap
+  counter_admin_tool: §cSecret Admin Aspect Calculator
+  alembic_chest_name: §9Alembic Chamber
+  alembic_item_name: §eAlembic
+  instant_admin_tool: §cSecret Admin Brewing Tool
+  resonator_name: §eThaumaturgical Resonator
+  potion_admin_tool: §cSecret Admin Potion Tool
+messages:
+  in_progress_message: §cAlembics cannot be broken while in progress!
+  no_aspects: §cThis item does not appear to influence the resonator.
+  small_aspects: §eThe dial hovers for a moment, then falters. This item contains
+    a small amount of alchemical energy.
+  not_enough_sap_msg: §cNo §eShaman Sap§c! Alechmy not started.
+  large_aspects: §9The resonator thrums with energy, and the dial flails wildly. This
+    item must contain very powerful energies.
+  insufficient_permissions: §cYou do not have permission to use this command!
+  not_enough_fuel_msg: §cYou must have some coal in the Alembic Bellows in order to
+    begin an alchemical reaction!
+  in_progress_inventory_message: §cInventories of Alembics cannot be modified while
+    they are in progress!
+  alembic_construction: §cConstructing Alembic...
+  ender_pearl_error: §cThe magics in this item conflict with the energies inside the
+    Alembic.
+  medium_aspects: §6The dial hovers steadily above the baseline. This item certainly
+    contains alchemical properties.
+  not_enough_water_bottles_msg: §cYou must have all three brewing stand slots filled
+    with water bottles to begin an alchemical reaction!
+  not_enough_ingredients_msg: §cYou must have at least 3 different types of ingredients
+    for an alchemical reaction!

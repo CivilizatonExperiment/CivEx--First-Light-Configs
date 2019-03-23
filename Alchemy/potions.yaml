@@ -1,0 +1,475 @@
+# Key needs to match CustomPotion enum value
+AEGIS_CORDIAL:
+ display_name: §eAegis Cordial
+ color: YELLOW
+ variant: POTION
+ effects:
+  absorption_effect:
+   type: ABSORPTION
+   duration: 2400
+   amplifier: 1
+   ambient: false
+   particles: true
+   color: YELLOW
+DIVINES_KISS:
+ display_name: §eDivine's Kiss
+ color: AQUA
+ variant: POTION
+ effects:
+  damage_resistance_effect:
+   type: DAMAGE_RESISTANCE
+   duration: 600
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: AQUA
+FLAMEREND_PHILTER:
+ display_name: §eFlamerend Philter
+ color: ORANGE
+ variant: POTION
+ effects:
+  fire_resistance_effect:
+   type: FIRE_RESISTANCE
+   duration: 200
+   ambient: false
+   particles: true
+   color: ORANGE
+FLAMEREND_ELIXIR:
+ display_name: §eFlamerend Elixir
+ color: ORANGE
+ variant: POTION
+ effects:
+  fire_resistance_effect:
+   type: FIRE_RESISTANCE
+   duration: 2400
+   ambient: false
+   particles: true
+   color: ORANGE
+FLAMEBANE_STRONGBREW:
+ display_name: §eFlamebane Strongbrew
+ color: ORANGE
+ variant: POTION
+ effects:
+  fire_resistance_effect:
+   type: FIRE_RESISTANCE
+   duration: 12000
+   ambient: true
+   particles: true
+   color: ORANGE
+VIGORINE_TONIC:
+ display_name: §eVigorine Tonic
+ color: RED
+ variant: POTION
+ effects:
+  instant_health_effect:
+   type: HEAL
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: RED
+VIGORINE_ELIXIR:
+ display_name: §eVigorine Elixir
+ color: RED
+ variant: POTION
+ effects:
+  instant_health_effect:
+   type: HEAL
+   amplifier: 1
+   ambient: false
+   particles: true
+   color: RED
+VIGORINE_AERIFORM:
+ display_name: §eVigorine Aeriform
+ color: RED
+ variant: SPLASH
+ effects:
+  instant_health_effect:
+   type: HEAL
+   amplifier: 1
+   ambient: false
+   particles: true
+   color: RED
+STALWART_SPIRIT:
+ display_name: §eStalwart Spirit
+ color: YELLOW
+ variant: POTION
+ effects:
+  health_boost_effect:
+   type: HEALTH_BOOST
+   duration: 2400
+   amplifier: 0
+   ambient: true
+   particles: true
+   color: YELLOW
+SINEW_SPIRIT:
+ display_name: §eSinew Spirit
+ color: MAROON
+ variant: POTION
+ effects:
+  strength_effect:
+   type: INCREASE_DAMAGE
+   duration: 9600
+   amplifier: 0
+   ambient: true
+   particles: true
+   color: MAROON
+FEATHERWEIGHT_PHILTER:
+ display_name: §eFeatherweight Philter
+ color: LIME
+ variant: POTION
+ effects:
+  zero_falldmg_effect:
+   type: JUMP
+   duration: 100
+   amplifier: 255
+   ambient: false
+   particles: true
+   color: LIME
+  slow_fall_effect:
+   type: LEVITATION
+   duration: 100
+   amplifier: 254
+   ambient: false
+   particles: false
+SKYREACH_TONIC:
+ display_name: §eSkyreach Tonic
+ color: LIME
+ variant: POTION
+ effects:
+  jump_effect:
+   type: JUMP
+   duration: 12000
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: LIME
+POTENT_SKYREACH:
+ display_name: §ePotent Skyreach
+ color: LIME
+ variant: POTION
+ effects:
+  jump_effect:
+   type: JUMP
+   duration: 3600
+   amplifier: 1
+   ambient: false
+   particles: true
+   color: LIME
+LIQUID_LUCK:
+ display_name: §eLiquid Luck
+ color: OLIVE
+ variant: POTION
+ effects:
+  luck_effect:
+   type: LUCK
+   duration: 7200
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: OLIVE
+LIQUID_FORTUNE:
+ display_name: §eLiquid Fortune
+ color: OLIVE
+ variant: POTION
+ effects:
+  luck_effect:
+   type: LUCK
+   duration: 14400
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: OLIVE
+DARKSIGHT_ELIXIR:
+ display_name: §eDarksight Elixir
+ color: PURPLE
+ variant: POTION
+ effects:
+  nightvision_effect:
+   type: NIGHT_VISION
+   duration: 72000
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: PURPLE
+BLESSING_OF_PROVIDENCE:
+ display_name: §eBlessing of Providence
+ color: FUCHSIA
+ variant: POTION
+ effects:
+  regen_effect:
+   type: REGENERATION
+   duration: 2400
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: FUCHSIA
+SOULBOND:
+ display_name: §eSoulbond
+ color: FUCHSIA
+ variant: POTION
+ effects:
+  regen_effect:
+   type: REGENERATION
+   duration: 1200
+   amplifier: 1
+   ambient: false
+   particles: true
+   color: FUCHSIA
+FLEETSWIFT_PHILTER:
+ display_name: §eFleetswift Philter
+ color: AQUA
+ variant: POTION
+ effects:
+  swiftness_effect:
+   type: SPEED
+   duration: 18000
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: AQUA
+FLEETSWIFT_STRONGBREW:
+ display_name: §eFleetswift Strongbrew
+ color: AQUA
+ variant: POTION
+ effects:
+  swiftness_effect:
+   type: SPEED
+   duration: 12000
+   amplifier: 1
+   ambient: false
+   particles: true
+   color: AQUA
+AUGA_EUPNEA:
+ display_name: §eAgua Eupnea
+ color: NAVY
+ variant: POTION
+ effects:
+  water_breathing_effect:
+   type: WATER_BREATHING
+   duration: 72000
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: NAVY
+BLIGHTBLOT:
+ display_name: §cBlightblot
+ color: GREEN
+ variant: SPLASH
+ effects:
+  poison_effect:
+   type: POISON
+   duration: 600
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: GREEN
+POTENT_BLIGHTBLOT:
+ display_name: §cPotent Blightblot
+ color: GREEN
+ variant: SPLASH
+ effects:
+  poison_effect:
+   type: POISON
+   duration: 1200
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: GREEN
+SCOURGE:
+ display_name: §cScourge
+ color: GREEN
+ variant: SPLASH
+ effects:
+  poison_effect:
+   type: POISON
+   duration: 600
+   amplifier: 1
+   ambient: false
+   particles: true
+   color: GREEN
+SOMNOLENT:
+ display_name: §cSomnolent
+ color: SILVER
+ variant: SPLASH
+ effects:
+  slowness_effect:
+   type: SLOW
+   duration: 600
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: SILVER
+SOMNOLENT_STRONGBREW:
+ display_name: §cSomnolent Strongbrew
+ color: SILVER
+ variant: SPLASH
+ effects:
+  slowness_effect:
+   type: SLOW
+   duration: 1200
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: SILVER
+SPORIFINE:
+ display_name: §cSporifine
+ color: SILVER
+ variant: SPLASH
+ effects:
+  slowness_effect:
+   type: SLOW
+   duration: 600
+   amplifier: 1
+   ambient: false
+   particles: true
+   color: SILVER
+SOULREND:
+ display_name: §cSoulrend
+ color: GRAY
+ variant: SPLASH
+ effects:
+  weakness_effect:
+   type: WEAKNESS
+   duration: 600
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: GRAY
+COGENT_SOULREND:
+ display_name: §cCogent Soulrend
+ color: GRAY
+ variant: SPLASH
+ effects:
+  weakness_effect:
+   type: WEAKNESS
+   duration: 1200
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: GRAY
+SOULBANE:
+ display_name: §cSoulbane
+ color: GRAY
+ variant: SPLASH
+ effects:
+  weakness_effect:
+   type: WEAKNESS
+   duration: 600
+   amplifier: 1
+   ambient: false
+   particles: true
+   color: GRAY
+BLESSING_OF_VIGOR:
+ display_name: §eBlessing of Vigor
+ color: YELLOW
+ variant: POTION
+ effects:
+  heal_effect:
+   type: HEAL
+   amplifier: 0
+   ambient: false
+   particles: false
+  regen_effect:
+   type: REGENERATION
+   duration: 200
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: YELLOW
+SOUVINERINE:
+ display_name: §eSouvinerine
+ color: TEAL
+ variant: POTION
+ effects:
+  heal_effect:
+   type: HEAL
+   amplifier: 1
+   ambient: false
+   particles: false
+  regen_effect:
+   type: REGENERATION
+   duration: 2400
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: TEAL
+FIREREND_SINEW:
+ display_name: §eFirerend Sinew
+ color: ORANGE
+ variant: POTION
+ effects:
+  strength_effect:
+   type: INCREASE_DAMAGE
+   duration: 9600
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: MAROON
+  fire_resist_effect:
+   type: FIRE_RESISTANCE
+   duration: 9600
+   ambient: true
+   particles: true
+   color: ORANGE
+AEGIS_CELESTIAL:
+ display_name: §eAegis Celestial
+ color: WHITE
+ variant: POTION
+ effects:
+  absorption_effect:
+   type: ABSORPTION
+   duration: 2400
+   amplifier: 1
+   ambient: true
+   particles: true
+   color: WHITE
+  resistance_effect:
+   type: DAMAGE_RESISTANCE
+   duration: 400
+   amplifier: 0
+   ambient: false
+   particles: false
+DEVILS_KISS:
+ display_name: §cDevil's Kiss
+ color: WHITE
+ variant: SPLASH
+ effects:
+  slowness_effect:
+   type: SLOW
+   duration: 1200
+   amplifier: 0
+   ambient: false
+   particles: false
+  weakness_effect:
+   type: WEAKNESS
+   duration: 1200
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: GRAY
+  damage_resist_effect:
+   type: DAMAGE_RESISTANCE
+   duration: 200
+   amplifier: 0
+   ambient: true
+   particles: true
+   color: WHITE
+DEATHBRINGER:
+ display_name: §cDeathbringer
+ color: BLACK
+ variant: SPLASH
+ effects:
+  poison_effect:
+   type: POISON
+   duration: 600
+   amplifier: 0
+   ambient: false
+   particles: true
+   color: GREEN
+  wither_effect:
+   type: WITHER
+   duration: 600
+   amplifier: 0
+   ambient: true
+   particles: true
+   color: BLACK

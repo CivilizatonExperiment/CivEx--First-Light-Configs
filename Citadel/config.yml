@@ -1,0 +1,786 @@
+# material is the bukkit name for the material.
+# requirements is the amount of the material needed to create a reinforcement.
+# return is the amount of material to return.
+# percent_chance is the chance to return the block. Scales with damage.
+# scale_amount is, if maturation is enabled, the amount extra to damage a block if it is not fully matured.  The forumla for calculating the extra damage is 1/(1-((time left of maturation) / (default amount of time for maturation))) * scale.  So if a block has 5 minutes left of maturation on a 10 minute default period with a scale of 3 we do 1/(5 / 10) * 3 = 6 damage. Setting scale amount to 0 disables this function.
+# effect allows to add particles around a reinforced block when it is created or damaged.
+#  type: The bukkit name of the particle.
+#  id: the item/block/data id for the effect
+#  data: the data value of the block/item for the effect
+#  offsetX: the amount to be randomly offset by in the X axis
+#  offsetY: the amount to be randomly offset by in the Y axis
+#  offsetZ: the amount to be randomly offset by in the Z axis
+#  speed: the speed of the particles
+#  particleCount: the amount of particle to display. 
+#  view_distance: the distance from which players will be able to see the effect. default is 16. 
+# internal_logging logs Citadel internal status messages, config notices, and the like. Strongly recommend it be on.
+internal_logging: true
+# command_logging logs the _response_ that Citadel sends to the player; very useful.
+command_logging: true
+# break_logging logs all reinforcement breaks that are done in /ctb mode (e.g. friendly breaks).
+break_logging: false
+# hostile_logging logs all reinforcement breaks that are done without bypass (e.g. hostile breaks).
+hostile_logging: true
+# damage_logging logs all reinforcement break attempts. Leave off unless you need it.
+damage_logging: false
+# reinf_logging logs all reinforcement creation and also logs when group lookups fail. Can get super spammy.
+reinf_logging: false
+# All logging states can be controlled using /ctsl
+reinforcements:
+#BLOCKS --------------------------------------------------------------------------------
+ block_low:
+  material: IRON_INGOT
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 50
+# mature time is in minutes
+  mature_time: 5
+  acid_time: 1
+  scale_amount: 0.5
+  lore: ['§eTier 1 Block Reinforcement']
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
+  reinforceables:
+    - GLASS
+    - LEVER
+    - POWERED_RAIL
+    - CLAY
+    - ACTIVATOR_RAIL
+    - WOOD_STAIRS
+    - WOOD
+    - WOOD_STEP
+    - CARPET
+    - STEP
+    - WATER_LILY
+    - ACACIA_FENCE
+    - ACACIA_STAIRS
+    - ACTIVATOR_RAIL
+    - ARMOR_STAND
+    - BANNER
+    - BED_BLOCK
+    - BIRCH_FENCE
+    - BIRCH_WOOD_STAIRS
+    - BLACK_GLAZED_TERRACOTTA
+    - BLUE_GLAZED_TERRACOTTA
+    - BONE_BLOCK
+    - BRICK
+    - BRICK_STAIRS
+    - BROWN_GLAZED_TERRACOTTA
+    - BURNING_FURNACE
+    - CACTUS
+    - CAKE_BLOCK
+    - CAULDRON
+    - CLAY_BLOCK
+    - COAL_BLOCK
+    - COBBLE_WALL
+    - COBBLESTONE
+    - COBBLESTONE_STAIRS
+    - CONCRETE
+    - CONCRETE_POWDER
+    - CYAN_GLAZED_TERRACOTTA
+    - DIAMOND_BLOCK
+    - DIRT
+    - EMERALD_BLOCK
+    - END_BRICKS
+    - ENDER_STONE
+    - FENCE
+    - FLOWER_POT
+    - FROSTED_ICE
+    - GLOWSTONE
+    - GRASS
+    - GRASS_PATH
+    - GRAVEL
+    - GRAY_GLAZED_TERRACOTTA
+    - HARD_CLAY
+    - HAY_BLOCK
+    - HUGE_MUSHROOM_1
+    - HUGE_MUSHROOM_2
+    - ICE
+    - IRON_FENCE
+    - IRON_PLATE
+    - ITEM_FRAME
+    - JACK_O_LANTERN
+    - JUNGLE_FENCE
+    - JUNGLE_WOOD_STAIRS
+    - LADDER
+    - LAPIS_BLOCK
+    - LEAVES
+    - LEAVES_2
+    - LIME_GLAZED_TERRACOTTA
+    - LOG
+    - LOG_2
+    - MAGENTA_GLAZED_TERRACOTTA
+    - MAGMA
+    - MELON_BLOCK
+    - MOSSY_COBBLESTONE
+    - MYCEL
+    - NETHER_BRICK
+    - NETHER_BRICK_STAIRS
+    - NETHER_WART_BLOCK
+    - NETHERRACK
+    - ORANGE_GLAZED_TERRACOTTA
+    - PACKED_ICE
+    - PAINTING
+    - PINK_GLAZED_TERRACOTTA
+    - PISTON_BASE
+    - PRISMARINE
+    - PUMPKIN
+    - PURPLE_GLAZED_TERRACOTTA
+    - PURPUR_BLOCK
+    - PURPUR_DOUBLE_SLAB
+    - PURPUR_PILLAR
+    - PURPUR_SLAB
+    - PURPUR_STAIRS
+    - QUARTZ_BLOCK
+    - QUARTZ_STAIRS
+    - RAILS
+    - RED_GLAZED_TERRACOTTA
+    - RED_NETHER_BRICK
+    - RED_SANDSTONE
+    - RED_SANDSTONE_STAIRS
+    - REDSTONE_BLOCK
+    - REDSTONE_COMPARATOR
+    - REDSTONE_LAMP_ON
+    - REDSTONE_LAMP_OFF
+    - REDSTONE_TORCH
+    - REDSTONE_WIRE
+    - SAND
+    - SANDSTONE
+    - SANDSTONE_STAIRS
+    - SIGN
+    - SIGN_POST
+    - SILVER_GLAZED_TERRACOTTA
+    - SKULL
+    - SLIME_BLOCK
+    - SMOOTH_BRICK
+    - SMOOTH_STAIRS
+    - SNOW_BLOCK
+    - SNOW
+    - SOIL
+    - SOUL_SAND
+    - SPRUCE_FENCE
+    - SPRUCE_WOOD_STAIRS
+    - STAINED_CLAY
+    - STAINED_GLASS
+    - STANDING_BANNER
+    - STONE
+    - STONE_BUTTON
+    - STONE_PLATE
+    - TNT
+    - THIN_GLASS
+    - TORCH
+    - VINE
+    - WALL_BANNER
+    - WALL_SIGN
+    - WHITE_GLAZED_TERRACOTTA
+    - WOOD_BUTTON
+    - WOOL
+    - WORKBENCH
+    - YELLOW_GLAZED_TERRACOTTA
+ block_mid:
+  material: IRON_INGOT
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 100
+  mature_time: 120
+  acid_time: 240
+  scale_amount: 0.5
+  lore: ['§eTier 2 Block Reinforcement']
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
+  reinforceables:
+    - GLASS
+    - LEVER
+    - POWERED_RAIL
+    - CLAY
+    - WOOD_STAIRS
+    - WOOD
+    - WOOD_STEP
+    - CARPET
+    - STEP
+    - WATER_LILY
+    - ACACIA_FENCE
+    - ACACIA_STAIRS
+    - ACTIVATOR_RAIL
+    - ARMOR_STAND
+    - BANNER
+    - BED_BLOCK
+    - BIRCH_FENCE
+    - BIRCH_WOOD_STAIRS
+    - BLACK_GLAZED_TERRACOTTA
+    - BLUE_GLAZED_TERRACOTTA
+    - BONE_BLOCK
+    - BRICK
+    - BRICK_STAIRS
+    - BROWN_GLAZED_TERRACOTTA
+    - BURNING_FURNACE
+    - CACTUS
+    - CAKE_BLOCK
+    - CAULDRON
+    - CLAY_BLOCK
+    - COAL_BLOCK
+    - COBBLE_WALL
+    - COBBLESTONE
+    - COBBLESTONE_STAIRS
+    - CONCRETE
+    - CONCRETE_POWDER
+    - CYAN_GLAZED_TERRACOTTA
+    - DIAMOND_BLOCK
+    - DIRT
+    - EMERALD_BLOCK
+    - END_BRICKS
+    - ENDER_STONE
+    - FENCE
+    - FLOWER_POT
+    - FROSTED_ICE
+    - GLOWSTONE
+    - GRASS
+    - GRASS_PATH
+    - GRAVEL
+    - GRAY_GLAZED_TERRACOTTA
+    - HARD_CLAY
+    - HAY_BLOCK
+    - HUGE_MUSHROOM_1
+    - HUGE_MUSHROOM_2
+    - ICE
+    - IRON_FENCE
+    - IRON_PLATE
+    - ITEM_FRAME
+    - JACK_O_LANTERN
+    - JUNGLE_FENCE
+    - JUNGLE_WOOD_STAIRS
+    - LADDER
+    - LAPIS_BLOCK
+    - LEAVES
+    - LEAVES_2
+    - LIME_GLAZED_TERRACOTTA
+    - LOG
+    - LOG_2
+    - MAGENTA_GLAZED_TERRACOTTA
+    - MAGMA
+    - MELON_BLOCK
+    - MOSSY_COBBLESTONE
+    - MYCEL
+    - NETHER_BRICK
+    - NETHER_BRICK_STAIRS
+    - NETHER_WART_BLOCK
+    - NETHERRACK
+    - ORANGE_GLAZED_TERRACOTTA
+    - PACKED_ICE
+    - PAINTING
+    - PINK_GLAZED_TERRACOTTA
+    - PISTON_BASE
+    - PRISMARINE
+    - PUMPKIN
+    - PURPLE_GLAZED_TERRACOTTA
+    - PURPUR_BLOCK
+    - PURPUR_DOUBLE_SLAB
+    - PURPUR_PILLAR
+    - PURPUR_SLAB
+    - PURPUR_STAIRS
+    - QUARTZ_BLOCK
+    - QUARTZ_STAIRS
+    - RAILS
+    - RED_GLAZED_TERRACOTTA
+    - RED_NETHER_BRICK
+    - RED_SANDSTONE
+    - RED_SANDSTONE_STAIRS
+    - REDSTONE_BLOCK
+    - REDSTONE_COMPARATOR
+    - REDSTONE_LAMP_ON
+    - REDSTONE_LAMP_OFF
+    - REDSTONE_TORCH
+    - REDSTONE_WIRE
+    - SAND
+    - SANDSTONE
+    - SANDSTONE_STAIRS
+    - SIGN
+    - SIGN_POST
+    - SILVER_GLAZED_TERRACOTTA
+    - SKULL
+    - SLIME_BLOCK
+    - SMOOTH_BRICK
+    - SMOOTH_STAIRS
+    - SNOW_BLOCK
+    - SNOW
+    - SOIL
+    - SOUL_SAND
+    - SPRUCE_FENCE
+    - SPRUCE_WOOD_STAIRS
+    - STAINED_CLAY
+    - STAINED_GLASS
+    - STANDING_BANNER
+    - STONE
+    - STONE_BUTTON
+    - STONE_PLATE
+    - TNT
+    - THIN_GLASS
+    - TORCH
+    - VINE
+    - WALL_BANNER
+    - WALL_SIGN
+    - WHITE_GLAZED_TERRACOTTA
+    - WOOD_BUTTON
+    - WOOL
+    - WORKBENCH
+    - YELLOW_GLAZED_TERRACOTTA
+ block_high:
+  material: IRON_INGOT
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 300
+  mature_time: 1440
+  acid_time: 360
+  scale_amount: 0.5
+  lore: ['§eTier 3 Block Reinforcement']
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
+  reinforceables:
+    - GLASS
+    - LEVER
+    - POWERED_RAIL
+    - CLAY
+    - WOOD_STAIRS
+    - WOOD
+    - WOOD_STEP
+    - CARPET
+    - STEP
+    - WATER_LILY
+    - ACACIA_FENCE
+    - ACACIA_STAIRS
+    - ACTIVATOR_RAIL
+    - ARMOR_STAND
+    - BANNER
+    - BED_BLOCK
+    - BIRCH_FENCE
+    - BIRCH_WOOD_STAIRS
+    - BLACK_GLAZED_TERRACOTTA
+    - BLUE_GLAZED_TERRACOTTA
+    - BONE_BLOCK
+    - BRICK
+    - BRICK_STAIRS
+    - BROWN_GLAZED_TERRACOTTA
+    - BURNING_FURNACE
+    - CACTUS
+    - CAKE_BLOCK
+    - CAULDRON
+    - CLAY_BLOCK
+    - COAL_BLOCK
+    - COBBLE_WALL
+    - COBBLESTONE
+    - COBBLESTONE_STAIRS
+    - CONCRETE
+    - CONCRETE_POWDER
+    - CYAN_GLAZED_TERRACOTTA
+    - DIAMOND_BLOCK
+    - DIRT
+    - EMERALD_BLOCK
+    - END_BRICKS
+    - ENDER_STONE
+    - FENCE
+    - FLOWER_POT
+    - FROSTED_ICE
+    - GLOWSTONE
+    - GRASS
+    - GRASS_PATH
+    - GRAVEL
+    - GRAY_GLAZED_TERRACOTTA
+    - HARD_CLAY
+    - HAY_BLOCK
+    - HUGE_MUSHROOM_1
+    - HUGE_MUSHROOM_2
+    - ICE
+    - IRON_FENCE
+    - IRON_PLATE
+    - ITEM_FRAME
+    - JACK_O_LANTERN
+    - JUNGLE_FENCE
+    - JUNGLE_WOOD_STAIRS
+    - LADDER
+    - LAPIS_BLOCK
+    - LEAVES
+    - LEAVES_2
+    - LIME_GLAZED_TERRACOTTA
+    - LOG
+    - LOG_2
+    - MAGENTA_GLAZED_TERRACOTTA
+    - MAGMA
+    - MELON_BLOCK
+    - MOSSY_COBBLESTONE
+    - MYCEL
+    - NETHER_BRICK
+    - NETHER_BRICK_STAIRS
+    - NETHER_WART_BLOCK
+    - NETHERRACK
+    - ORANGE_GLAZED_TERRACOTTA
+    - PACKED_ICE
+    - PAINTING
+    - PINK_GLAZED_TERRACOTTA
+    - PISTON_BASE
+    - PRISMARINE
+    - PUMPKIN
+    - PURPLE_GLAZED_TERRACOTTA
+    - PURPUR_BLOCK
+    - PURPUR_DOUBLE_SLAB
+    - PURPUR_PILLAR
+    - PURPUR_SLAB
+    - PURPUR_STAIRS
+    - QUARTZ_BLOCK
+    - QUARTZ_STAIRS
+    - RAILS
+    - RED_GLAZED_TERRACOTTA
+    - RED_NETHER_BRICK
+    - RED_SANDSTONE
+    - RED_SANDSTONE_STAIRS
+    - REDSTONE_BLOCK
+    - REDSTONE_COMPARATOR
+    - REDSTONE_LAMP_ON
+    - REDSTONE_LAMP_OFF
+    - REDSTONE_TORCH
+    - REDSTONE_WIRE
+    - SAND
+    - SANDSTONE
+    - SANDSTONE_STAIRS
+    - SIGN
+    - SIGN_POST
+    - SILVER_GLAZED_TERRACOTTA
+    - SKULL
+    - SLIME_BLOCK
+    - SMOOTH_BRICK
+    - SMOOTH_STAIRS
+    - SNOW_BLOCK
+    - SNOW
+    - SOIL
+    - SOUL_SAND
+    - SPRUCE_FENCE
+    - SPRUCE_WOOD_STAIRS
+    - STAINED_CLAY
+    - STAINED_GLASS
+    - STANDING_BANNER
+    - STONE
+    - STONE_BUTTON
+    - STONE_PLATE
+    - TNT
+    - THIN_GLASS
+    - TORCH
+    - VINE
+    - WALL_BANNER
+    - WALL_SIGN
+    - WHITE_GLAZED_TERRACOTTA
+    - WOOD_BUTTON
+    - WOOL
+    - WORKBENCH
+    - YELLOW_GLAZED_TERRACOTTA
+  #LOCKS -------------------------------------------------------------------
+ lock_low:
+  material: GOLD_INGOT
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 250
+  mature_time: 15
+  acid_time: 720
+  scale_amount: 1
+  lore: ['§eTier 1 Lock Reinforcement']
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
+  reinforceables:
+    - IRON_TRAPDOOR
+    - ANVIL
+    - ACACIA_FENCE_GATE
+    - ACACIA_DOOR
+    - ARMOR_STAND
+    - BANNER
+    - BED_BLOCK
+    - BIRCH_DOOR
+    - BIRCH_FENCE_GATE
+    - BREWING_STAND
+    - BURNING_FURNACE
+    - CAULDRON
+    - CHEST
+    - DARK_OAK_DOOR
+    - DISPENSER
+    - DROPPER
+    - FENCE_GATE
+    - FURNACE
+    - HOPPER
+    - OBSERVER
+    - TRAP_DOOR
+    - TRAPPED_CHEST
+    - TRIPWIRE_HOOK
+    - WOODEN_DOOR
+    - IRON_DOOR_BLOCK
+    - WORKBENCH
+    - JUNGLE_DOOR
+    - JUNGLE_FENCE_GATE
+    - SPRUCE_DOOR
+    - SPRUCE_FENCE_GATE
+ lock_mid:
+  material: GOLD_INGOT
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 1000
+  mature_time: 30
+  acid_time: 1440
+  scale_amount: 1
+  lore: ['§eTier 2 Lock Reinforcement']
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
+  reinforceables:
+    - IRON_TRAPDOOR
+    - ANVIL
+    - ACACIA_FENCE_GATE
+    - ACACIA_DOOR
+    - ARMOR_STAND
+    - BANNER
+    - BURNING_FURNACE
+    - BED_BLOCK
+    - BIRCH_DOOR
+    - BIRCH_FENCE_GATE
+    - BREWING_STAND
+    - CAULDRON
+    - CHEST
+    - DARK_OAK_DOOR
+    - DISPENSER
+    - DROPPER
+    - FENCE_GATE
+    - FURNACE
+    - HOPPER
+    - OBSERVER
+    - TRAP_DOOR
+    - TRAPPED_CHEST
+    - TRIPWIRE_HOOK
+    - WOODEN_DOOR
+    - IRON_DOOR_BLOCK
+    - WORKBENCH
+    - JUNGLE_DOOR
+    - JUNGLE_FENCE_GATE
+    - SPRUCE_DOOR
+    - SPRUCE_FENCE_GATE
+ lock_high:
+  material: GOLD_INGOT
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 2000
+  mature_time: 30
+  acid_time: 2880
+  scale_amount: 1
+  lore: ['§eTier 3 Lock Reinforcement']
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
+  reinforceables:
+    - IRON_TRAPDOOR
+    - ANVIL
+    - ACACIA_FENCE_GATE
+    - ACACIA_DOOR
+    - ARMOR_STAND
+    - BANNER
+    - BED_BLOCK
+    - BIRCH_DOOR
+    - BIRCH_FENCE_GATE
+    - BREWING_STAND
+    - BURNING_FURNACE
+    - CAULDRON
+    - CHEST
+    - DARK_OAK_DOOR
+    - DISPENSER
+    - DROPPER
+    - FENCE_GATE
+    - FURNACE
+    - HOPPER
+    - OBSERVER
+    - TRAP_DOOR
+    - TRAPPED_CHEST
+    - TRIPWIRE_HOOK
+    - WOODEN_DOOR
+    - IRON_DOOR_BLOCK
+    - WORKBENCH
+    - JUNGLE_DOOR
+    - JUNGLE_FENCE_GATE
+    - SPRUCE_DOOR
+    - SPRUCE_FENCE_GATE
+#VAULT ------------------------
+ vault_low:
+  material: EMERALD
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 400
+  mature_time: 720
+  acid_time: 360
+  scale_amount: 1
+  lore: ['§eTier 1 Vault Reinforcement']
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
+  reinforceables:
+    - OBSIDIAN
+    - SPONGE
+ vault_mid:
+  material: EMERALD
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 1200
+  mature_time: 1440
+  acid_time: 2880
+  scale_amount: 1
+  lore: ['§eTier 2 Vault Reinforcement']
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
+  reinforceables:
+    - OBSIDIAN
+    - SPONGE
+ vault_high:
+  material: EMERALD
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 1600
+  mature_time: 2880
+  acid_time: 4320
+  scale_amount: 1
+  lore: ['§eTier 3 Vault Reinforcement']
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
+  reinforceables:
+    - OBSIDIAN
+    - SPONGE
+#SNITCH ---------------------------------------
+ snitch_low:
+  material: DIAMOND
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 100
+  mature_time: 1440
+  acid_time: 5
+  scale_amount: 1
+  lore: ['§eTier 1 Snitch Reinforcement']
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
+  reinforceables:
+    - JUKEBOX
+    - NOTE_BLOCK
+ snitch_mid:
+  material: DIAMOND
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 800
+  mature_time: 2880
+  acid_time: 720
+  scale_amount: 1
+  lore: ['§eTier 2 Snitch Reinforcement']
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
+  reinforceables:
+    - JUKEBOX
+    - NOTE_BLOCK
+ snitch_high:
+  material: DIAMOND
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 1600
+  mature_time: 4320
+  acid_time: 1440
+  scale_amount: 1
+  lore: ['§eTier 3 Snitch Reinforcement']
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
+  reinforceables:
+    - JUKEBOX
+    - NOTE_BLOCK
+# Delete the comment char to use lore.  Three spaces are required 
+# after lore. You can add multiple lines by adding -
+#   - Some string representation required for this reinforcement.
+#
+# # Uncomment below to add limits to what blocks this reinforcement can be applied to
+# reinforceables:
+#   - STONE
+ bedrock:
+  material: BEDROCK
+  requirements: 1
+  return: 0
+  percent_chance: 100
+  hit_points: 147483646
+  mature_time: 147483646
+  acid_time: 147483646
+  scale_amount: 1
+  lore:
+  effect:
+   type: FLYING_GLYPH
+   speed: 0.5
+   particleCount: 50
+#natural_reinforcements:
+ #diamond_ore:
+  #material: DIAMOND_ORE
+  #hit_points: 60
+non_reinforceables:
+ - BEDROCK
+ - ENDER_PORTAL_FRAME
+ - SAPLING
+ - LONG_GRASS
+ - DEAD_BUSH
+ - PISTON_EXTENSION
+ - PISTON_MOVING_PIECE
+ - RED_ROSE
+ - YELLOW_FLOWER
+ - BROWN_MUSHROOM
+ - RED_MUSHROOM
+ - TNT
+ - CROPS
+ - FIRE
+ - SNOW
+ - ICE
+ - CACTUS
+ - SUGAR_CANE_BLOCK
+ - PORTAL
+ - CAKE_BLOCK
+ - PUMPKIN_STEM
+ - MELON_STEM
+ - VINE
+ - NETHER_WARTS
+ - ENDER_PORTAL
+reset_player_state: 300
+enable_maturation: true
+# The max amount of reinforcements to keep loaded
+max_cache_size: 20000000
+# The amount of minutes to keep a reinforcement loaded
+max_cache_load_time: 10
+redstone_distance: 3
+acidblock_material: GOLD_BLOCK
+# If set to true then instead of dropping the reinforcement a block with the specified reinforcement value will be dropped.
+drop_reinforced_block: false
+save_interval_ticks: 600
+# reinforcement_damageMultiplier is m where BlockDamage = 2 ^ (n/m) where n is equal to the number of days the group has been inactive
+reinforcement_damageMultiplier: 365

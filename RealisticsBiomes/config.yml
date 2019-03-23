@@ -1,0 +1,868 @@
+ cache_entire_database: true
+ persistence_enabled: true
+ # Set to true if you want fishing_drops to _replace_ MC default instead of control.
+ replace_fishing: true
+ # Set to 1.0 if you want XP unaltered from fishing; 0.0 to disable,
+ #   and anything inbetween as a chance (.1 as 10% chance, .9 as 90% chance, etc.)
+ fish_xp_chance: 1.0
+ # Set to true if you want tapping a plant with bonemeal to double it.
+ allow_tallplant_replication: true
+
+ unload_batch_period: 100
+ grow_event_load_chance: 0.1
+
+ unload_batch_max_time: 20
+
+ log_db: false
+ minLogLevel: "INFO"
+ log_db_production: false
+ log_db_production_chunk_load_mintime: 5
+ log_db_production_chunk_unload_mintime: 5
+
+
+ # catagories of biomes
+ biome_aliases:
+  waterways:
+  - RIVER
+  - DEEP_OCEAN
+  - OCEAN
+  - BEACHES
+  - MUSHROOM_ISLAND
+  - TAIGA_COLD_HILLS
+  - DESERT_HILLS
+  wastelands:
+  - ICE_MOUNTAINS
+  - MUTATED_ICE_FLATS
+  - ICE_FLATS
+  - STONE_BEACH
+  - MESA_CLEAR_ROCK
+  - MUTATED_SAVANNA
+  oceans:
+  - DEEP_OCEAN
+  - OCEAN
+  - BEACHES
+  - MUSHROOM_ISLAND
+  bays:
+  - TAIGA_COLD_HILLS
+  - DESERT_HILLS
+  claws_of_azal:
+  - TAIGA
+  ayatola:
+  - MUTATED_FOREST
+  zemmet:
+  - MUTATED_REDWOOD_TAIGA_HILLS
+  farlands:
+  - ROOFED_FOREST
+  whitestone_mountains:
+  - EXTREME_HILLS_WITH_TREES
+  far_deim:
+  - MESA
+  javega:
+  - DESERT
+  the_reach:
+  - MUTATED_JUNGLE
+  tella:
+  - JUNGLE_EDGE
+  greenridge:
+  - MUTATED_SAVANNA_ROCK
+  moorwake:
+  - REDWOOD_TAIGA
+  middling_wood:
+  - REDWOOD_TAIGA_HILLS
+  melara:
+  - JUNGLE_HILLS
+  westmarch:
+  - SAVANNA
+  gelie_forest:
+  - BIRCH_FOREST
+  ola:
+  - MUTATED_ROOFED_FOREST
+  eire:
+  - MUTATED_REDWOOD_TAIGA
+  west_haikes:
+  - MUTATED_EXTREME_HILLS
+  east_haikes:
+  - MUTATED_EXTREME_HILLS_WITH_TREES
+  low_valley:
+  - MUTATED_BIRCH_FOREST
+  uphaike:
+  - MUTATED_SWAMPLAND
+  roundtop:
+  - EXTREME_HILLS
+  elderwoods:
+  - JUNGLE
+  oltore:
+  - MUTATED_DESERT
+  the_rim:
+  - FOREST_HILLS
+  risebank:
+  - FOREST
+  riverlands:
+  - PLAINS
+  the_divide:
+  - MUTATED_PLAINS
+  gelie_delta:
+  - SWAMPLAND
+  scattered_isles:
+  - BIRCH_FOREST_HILLS
+  the_scar:
+  - TAIGA_COLD
+  glass_waste:
+  - MUTATED_TAIGA_COLD
+  high_helm:
+  - ICE_MOUNTAINS
+  the_devils_knives:
+  - MUTATED_ICE_FLATS
+  rime:
+  - ICE_FLATS
+  shineths_tears:
+  - STONE_BEACH
+  ascension:
+  - MESA_CLEAR_ROCK
+  umn:
+  - MUTATED_SAVANNA
+  riverways:
+  - RIVER
+  the_deep:
+  - DEEP_OCEAN
+  blue_sea:
+  - OCEAN
+  southern_sea:
+  - BEACHES
+  izan_waters:
+  - MUSHROOM_ISLAND
+  eshen_bay:
+  - TAIGA_COLD_HILLS
+  golden_bay:
+  - DESERT_HILLS
+  
+ # RB DEFAULT CONFIG:
+ # water:
+ # - BEACHES
+ # - STONE_BEACH
+ # - DEEP_OCEAN
+ # - RIVER
+ # - OCEAN
+ # freshwater:
+ # - RIVER
+ # - FROZEN_RIVER
+ # cold_water:
+ # - COLD_BEACH
+ # - FROZEN_OCEAN
+ # - FROZEN_RIVER
+ # temperate:
+ # - PLAINS
+ # - SAVANNA
+ # - SAVANNA_ROCK
+ # forest:
+ # - BIRCH_FOREST
+ # - BIRCH_FOREST_HILLS
+ # - ROOFED_FOREST
+ # - FOREST
+ # - FOREST_HILLS
+ # cold:
+ # - ICE_FLATS
+ # - TAIGA
+ # - TAIGA_COLD
+ # - REDWOOD_TAIGA
+ # - TAIGA_HILLS
+ # - TAIGA_COLD_HILLS
+ # - REDWOOD_TAIGA_HILLS
+ # - ICE_MOUNTAINS
+ # cold_forest:
+ # - TAIGA
+ # - TAIGA_COLD
+ # - REDWOOD_TAIGA
+ # - TAIGA_HILLS
+ # - TAIGA_COLD_HILLS
+ # - REDWOOD_TAIGA_HILLS
+ # hot_dry:
+ # - DESERT
+ # - DESERT_HILLS
+ # hot_rainy:
+ # - JUNGLE
+ # - JUNGLE_EDGE
+ # - JUNGLE_HILLS
+ # mountain:
+ # - EXTREME_HILLS
+ # - EXTREME_HILLS_WITH_TREES
+ # - SMALLER_EXTREME_HILLS
+ # mesa:
+ # - MESA
+ # - MESA_CLEAR_ROCK
+ # - MESA_ROCK
+ # mushroom:
+ # - MUSHROOM_ISLAND
+ # - MUSHROOM_ISLAND_SHORE
+ # swamp:
+ # - SWAMPLAND
+ # mutated_forest:
+ # - MUTATED_BIRCH_FOREST
+ # - MUTATED_BIRCH_FOREST_HILLS
+ # - MUTATED_FOREST
+ # - MUTATED_ROOFED_FOREST
+ # mutated_mountain:
+ # - MUTATED_EXTREME_HILLS
+ # - MUTATED_EXTREME_HILLS_WITH_TREES
+ # mutated_hot_dry:
+ # - MUTATED_DESERT
+ # mutated_cold:
+ # - MUTATED_ICE_FLATS
+ # - MUTATED_TAIGA
+ # - MUTATED_TAIGA_COLD
+ # - MUTATED_REDWOOD_TAIGA
+ # - MUTATED_REDWOOD_TAIGA_HILLS
+ # mutated_hot_rainy:
+ # - MUTATED_JUNGLE
+ # - MUTATED_JUNGLE_EDGE
+ # mutated_mesa:
+ # - MUTATED_MESA
+ # - MUTATED_MESA_CLEAR_ROCK
+ # - MUTATED_MESA_ROCK
+ # mutated_temperate:
+ # - MUTATED_PLAINS
+ # - MUTATED_FOREST
+ # - MUTATED_SAVANNA
+ # - MUTATED_SAVANNA_ROCK
+ # mutated_swamp:
+ # - MUTATED_SWAMPLAND
+ # other:
+ # - SKY
+ # - VOID
+ # - HELL
+
+ # list of crops to be effected by the plugin
+ # valid crop names can be any of the following:
+ #  any of the bukkit.Material enum names    -- crops
+ #  any of the bukkit.TreeType enum names    -- trees
+ #  any of the bukkit.EntityType enum names  -- animals
+ # any other name will have no effect except for inheritance
+ # names with capital letters will be assumed to be official bukkit names
+ # the plugin will give you a warning if you use a name with any capital letters
+ # that does not map to a bukkit material, tree type, or entity type
+
+ growth:
+  #----------------------------------------
+  # crop:
+   # the base rate of this plant as a fraction of the standard rate
+  #  base_rate: 0.06
+   # the rate at which plants will grow in an artificial environment, sunlight factor will be ignored
+   # greenhouse is represented by immediate proximity of a glowstone block with light level 14
+  #  greenhouse_rate: 0.75
+   # if this flag is true, the growth rate of the grower is modulated by sunlight levels
+   # ie sunlight level = 15 means full growth, while sunlight level 0 means 0 growth
+   # sunlight level is disregarded is this flag is false
+  #  needs_sunlight: true
+   # multiplier that is applied to plants that are not at level 15 sunlight
+  #  not_full_sunlight_multiplier: 0.25
+
+   # material that, placed in a column beneath a crop block, may provide a bonus for each underlying
+   # level of the material.
+  #  soil_material: CLAY
+   # the maximum number of layers to count towards the bonus
+  #  soil_max_layers: 4
+   # the bonus per level. The total multiplier to the overall growth rate will be:
+   #   100%  +  soil_bonus_per_layer * number_of_layers
+  #  soil_bonus_per_layer: 0.5
+   # the relative z-level at which to start looking for soil blocks, in this example the column will start
+   # 2 blocks below the crop block, ie beneath both itself and the farmland block
+  #  soil_layer_offset: 2
+   
+  persistent_plants: # config for all persistent plants for FirstLight
+   base_rate: 0.0625
+   persistent_growth_period: 8
+   needs_sunlight: true
+   not_full_sunlight_multiplier: 0.10
+   soil_material: CLAY
+   soil_max_layers: 4
+   soil_bonus_per_layer: 0.25
+   soil_layer_offset: 2
+
+  pp: # persistent plants alias
+    inherit: persistent_plants
+    
+  nonpersistent_plants: # config for all non persistent plants
+    base_rate: 0.17
+    persistent_growth_period: 3
+    needs_sunlight: true
+    not_full_sunlight_multiplier: 0.10
+    soil_material: CLAY
+    soil_max_layers: 4
+    soil_bonus_per_layer: 0.25
+    soil_layer_offest: 2
+
+  npp: # nonpersistent_plants alias
+    inherit: nonpersistent_plants
+
+  # wheat
+  CROPS:
+   inherit: pp
+   biomes:
+    ola: 1.00
+    riverlands: 1.00
+    gelie_delta: 1.00
+    greenridge: 0.50
+    moorwake: 0.50
+    melara: 0.50
+    roundtop: 0.50
+    oltore: 0.50
+    the_divide: 0.50
+    middling_wood: 0.33
+    westmarch: 0.33
+    gelie_forest: 0.33
+    low_valley: 0.33
+    the_rim: 0.33
+    risebank: 0.33
+    ayatola: 0.25
+    zemmet: 0.25
+    farlands: 0.25
+    the_reach: 0.25
+    tella: 0.25
+    eire: 0.25
+    uphaike: 0.25
+    scattered_isles: 0.25
+    the_scar: 0.25
+
+  CARROT:
+   inherit: pp
+   biomes:
+    risebank: 1.00
+    the_reach: 0.50
+    gelie_forest: 0.50
+    uphaike: 0.50
+    gelie_delta: 0.50
+    scattered_isles: 0.50
+    claws_of_azal: 0.33
+    zemmet: 0.33
+    tella: 0.33
+    middling_wood: 0.33
+    melara: 0.33
+    eire: 0.33
+    low_valley: 0.33
+    oltore: 0.33
+    the_rim: 0.33
+    riverlands: 0.33
+    greenridge: 0.25
+    east_haikes: 0.25
+
+  POTATO:
+   inherit: pp
+   biomes:
+    eire: 1.00
+    roundtop: 1.00
+    whitestone_mountains: 0.50
+    claws_of_azal: 0.33
+    west_haikes: 0.33
+    east_haikes: 0.33
+    scattered_isles: 0.33
+    the_scar: 0.33
+    zemmet: 0.25
+    glass_waste: 0.25
+
+  #...................
+
+  NETHER_WARTS:
+   inherit: pp
+   needs_sunlight: false
+   not_full_sunlight_multiplier: 1.0
+   biomes:
+    far_deim: 1.00
+    farlands: 0.50
+    ayatola: 0.33
+    zemmet: 0.33
+    oltore: 0.33
+    gelie_delta: 0.33
+    claws_of_azal: 0.25
+    the_divide: 0.25
+
+  #.....................
+  # stems grow super slow, while they produce blocks quite quickly
+
+  MELON_STEM:
+   inherit: pp
+   biomes:
+    gelie_delta: 1.00
+    ayatola: 0.50
+    the_reach: 0.50
+    scattered_isles: 0.50
+    eire: 0.33
+    elderwoods: 0.33
+    riverlands: 0.33
+    moorwake: 0.25
+
+  PUMPKIN_STEM:
+   inherit: pp
+   biomes:
+    westmarch: 1.00
+    oltore: 0.50
+    gelie_delta: 0.50
+    zemmet: 0.33
+    the_reach: 0.33
+    melara: 0.33
+    the_divide: 0.33
+    the_scar: 0.33
+    claws_of_azal: 0.25
+    ayatola: 0.25
+    farlands: 0.25
+    roundtop: 0.25
+
+  #.....................
+
+  MELON_BLOCK:
+   inherit: pp
+   biomes:
+    gelie_delta: 1.00
+    ayatola: 0.50
+    the_reach: 0.50
+    scattered_isles: 0.50
+    eire: 0.33
+    elderwoods: 0.33
+    riverlands: 0.33
+    moorwake: 0.25
+
+  PUMPKIN:
+   inherit: pp
+   biomes:
+    westmarch: 1.00
+    oltore: 0.50
+    gelie_delta: 0.50
+    zemmet: 0.33
+    the_reach: 0.33
+    melara: 0.33
+    the_divide: 0.33
+    the_scar: 0.33
+    claws_of_azal: 0.25
+    ayatola: 0.25
+    farlands: 0.25
+    roundtop: 0.25
+
+  #--------------------------
+
+  BEETROOT_BLOCK:
+   inherit: pp
+   biomes:
+    tella: 1.00
+    ola: 1.00
+    farlands: 0.50
+    middling_wood: 0.50
+    gelie_forest: 0.50
+    low_valley: 0.50
+    elderwoods: 0.50
+    gelie_delta: 0.50
+    greenridge: 0.33
+    moorwake: 0.33
+    melara: 0.33
+    uphaike: 0.33
+    risebank: 0.25
+    riverlands: 0.25
+
+  #----------------------------------------
+
+  # column:
+  #  base_rate: 0.2
+  #  needs_sunlight: true
+  #  not_full_sunlight_multiplier: 0.5
+  #  soil_max_layers: 0
+
+  CACTUS:
+   inherit: pp
+   biomes:
+    javega: 1.00
+    far_deim: 0.33
+
+  SUGAR_CANE_BLOCK:
+   inherit: pp
+   biomes:
+    gelie_forest: 1.00
+    riverlands: 1.00
+    gelie_delta: 1.00
+    tella: 0.50
+    uphaike: 0.50
+    risebank: 0.50
+    ayatola: 0.33
+    greenridge: 0.33
+    elderwoods: 0.33
+    the_rim: 0.33
+    scattered_isles: 0.33
+    moorwake: 0.25
+    oltore: 0.25
+
+  #----------------------------------------
+
+  COCOA:
+   inherit: pp
+   not_full_sunlight_multiplier: 0.8
+   persistent_growth_period: 24
+   soil_material: VINE
+   soil_max_layers: 4
+   soil_bonus_per_layer: 0.25
+   soil_layer_offset: 1
+   biomes:
+    melara: 1.00
+    elderwoods: 1.00
+    the_reach: 0.50
+    middling_wood: 0.25
+
+  #----------------------------------------
+  # Trees are persistent. BIG_TREE, TALL_BIRCH, TALL_REDWOOD, JUNGLE_BUSH and SWAMP
+  # don't have a specific sapling type, so these may grow from their relevant
+  # sapling type (BIG_TREE from TREE, TALL_BIRCH from BIRCH...) with a chance
+  # resulting from their growth rate, much like fish drops. The chance/rate should
+  # be kept very low, none of these types except BIG_TREE spawn in vanilla, only at
+  # world generation.
+  # This means that only base_rate and biome rates are relevant for these types,
+  # persistence is ignored. Additionally, since BIG_TREE grows naturally, it might
+  # actually get cancelled more often in loaded chunks than the rate/chance from
+  # persistence does.
+
+ # basetree:
+ #  base_rate: 0.04
+ #  needs_sunlight: true
+ #  not_full_sunlight_multiplier: 0.125
+ #  greenhouse_rate: 0.75
+ #  biomes:
+ #   mushroom: 0.5
+ #   freshwater: 0.5
+
+  TREE: #oak
+   inherit: pp
+   biomes:
+    greenridge: 1.00
+    middling_wood: 1.00
+    gelie_forest: 1.00
+    ola: 1.00
+    oltore: 1.00
+    the_rim: 1.00
+    risebank: 1.00
+    the_divide: 1.00
+    gelie_delta: 1.00
+    low_valley: 0.50
+    elderwoods: 0.50
+    the_reach: 0.33
+    tella: 0.33
+    melara: 0.33
+    westmarch: 0.33
+    west_haikes: 0.33
+    riverlands: 0.33
+    ayatola: 0.25
+    roundtop: 0.25
+    the_scar: 0.25
+
+  # TREE has a (rate) chance of growing into this version:
+  BIG_TREE: #big oak
+   inherit: npp
+   biomes:
+    greenridge: 0.50
+    middling_wood: 0.50
+    gelie_forest: 0.50
+    low_valley: 0.50
+    elderwoods: 0.50
+    ola: 0.50
+    risebank: 0.50
+    the_divide: 0.50
+    gelie_delta: 0.50
+    melara: 0.33
+    the_rim: 0.33
+    the_reach: 0.25
+    tella: 0.25
+    west_haikes: 0.25
+    oltore: 0.25
+    riverlands: 0.25
+
+  BIRCH:
+   inherit: pp
+   biomes:
+    gelie_forest: 1.00
+    eire: 1.00
+    risebank: 1.00
+    the_divide: 1.00
+    gelie_delta: 1.00
+    scattered_isles: 1.00
+    greenridge: 0.50
+    westmarch: 0.33
+    riverlands: 0.25
+
+  # BIRCH has a (rate) chance of growing into this version:
+  TALL_BIRCH:
+   inherit: npp
+   biomes:
+    eire: 1.00
+    the_divide: 1.00
+    greenridge: 0.50
+    risebank: 0.50
+    scattered_isles: 0.50
+    gelie_forest: 0.33
+    gelie_delta: 0.33
+
+  REDWOOD:
+   inherit: pp
+   biomes:
+    zemmet: 1.00
+    low_valley: 1.00
+    middling_wood: 0.50
+    west_haikes: 0.50
+    east_haikes: 0.50
+    uphaike: 0.50
+    the_rim: 0.50
+    glass_waste: 0.50
+    claws_of_azal: 0.33
+    greenridge: 0.33
+    gelie_forest: 0.33
+    ola: 0.33
+    oltore: 0.33
+    gelie_delta: 0.33
+    whitestone_mountains: 0.25
+    moorwake: 0.25
+    roundtop: 0.25
+    the_divide: 0.25
+    the_scar: 0.25
+
+  # REDWOOD has a (rate) chance of growing into this version:
+  TALL_REDWOOD:
+   inherit: npp
+   biomes:
+    low_valley: 1.00
+    zemmet: 0.50
+    west_haikes: 0.50
+    east_haikes: 0.50
+    uphaike: 0.50
+    glass_waste: 0.50
+    the_rim: 0.33
+    claws_of_azal: 0.25
+
+  # 2x2 array of redwood saplings
+  MEGA_REDWOOD:
+   inherit: npp
+   biomes:
+    zemmet: 0.33
+    low_valley: 0.33
+    glass_waste: 0.33
+    claws_of_azal: 0.25
+
+  # generic sapling grows into this version ONLY in swampland:
+  SWAMP:
+   inherit: npp
+   biomes:
+    uphaike: 1.00
+    the_rim: 0.50
+    gelie_delta: 0.50
+
+  SMALL_JUNGLE:
+   inherit: pp
+   biomes:
+    melara: 0.50
+    ayatola: 0.33
+    the_reach: 0.33
+    tella: 0.33
+    westmarch: 0.33
+    elderwoods: 0.33
+
+  # 2x2 array of jungle saplings
+  JUNGLE:
+   inherit: pp
+   biomes:
+    ayatola: 1.00
+    the_reach: 1.00
+    tella: 1.00
+    melara: 1.00
+    elderwoods: 1.00
+    westmarch: 0.33
+
+  # SMALL_JUNGLE has a (rate) chance of growing into this (rather annoying) bush:
+  JUNGLE_BUSH:
+   inherit: npp
+   biomes:
+    ayatola: 0.25
+    the_reach: 0.25
+    tella: 0.25
+    melara: 0.33
+    elderwoods: 0.25
+
+  ACACIA:
+   inherit: pp
+   biomes:
+    westmarch: 1.00
+    far_deim: 0.33
+
+  DARK_OAK:
+   inherit: pp
+   biomes:
+    greenridge: 1.00
+
+  #......................
+
+  mushroom:
+   inherit: pp
+   needs_sunlight: false
+   max_soil_layers: 0
+   biomes:
+    farlands: 1.00
+    greenridge: 0.25
+    elderwoods: 0.25
+  tree_BROWN_MUSHROOM:
+   inherit: mushroom
+  mat_BROWN_MUSHROOM:
+   inherit: tree_BROWN_MUSHROOM
+  tree_RED_MUSHROOM:
+   inherit: mushroom
+  mat_RED_MUSHROOM:
+   inherit: tree_RED_MUSHROOM
+
+  #----------------------------------------
+  animal:
+   needs_sunlight: true
+   not_full_sunlight_multiplier: 0.5
+   base_rate: 1.0
+
+   soil_max_layers: 0
+
+  COW:
+   inherit: animal
+   biomes:
+    westmarch: 1.00
+    moorwake: 0.50
+    the_divide: 0.50
+    farlands: 0.33
+    greenridge: 0.33
+    riverlands: 0.33
+    middling_wood: 0.25
+    low_valley: 0.25
+
+  CHICKEN:
+   inherit: animal
+   biomes:
+    zemmet: 1.00
+    ola: 1.00
+    ayatola: 0.50
+    the_reach: 0.50
+    tella: 0.50
+    elderwoods: 0.50
+    gelie_delta: 0.50
+    claws_of_azal: 0.33
+    uphaike: 0.25
+
+  HORSE:
+   inherit: animal
+   biomes:
+     westmarch: 1.00
+     riverlands: 1.00
+     the_divide: 1.00
+     gelie_forest: 0.5
+    
+
+
+  PIG:
+   inherit: animal
+   biomes:
+    westmarch: 1.00
+    low_valley: 0.50
+    greenridge: 0.33
+    gelie_forest: 0.33
+    risebank: 0.33
+    riverlands: 0.33
+    the_divide: 0.33
+    moorwake: 0.25
+    gelie_delta: 0.25
+
+  SHEEP:
+   inherit: animal
+   biomes:
+    west_haikes: 1.00
+    whitestone_mountains: 0.50
+    east_haikes: 0.50
+    roundtop: 0.50
+    eire: 0.33
+    the_rim: 0.33
+    the_divide: 0.33
+    gelie_delta: 0.33
+    the_scar: 0.33
+    greenridge: 0.25
+
+  MUSHROOM_COW:
+   inherit: animal
+   biomes:
+    ayatola: 1.00
+    melara: 0.50
+
+  entity_RABBIT:
+   inherit: animal
+   biomes:
+    roundtop: 1.00
+    the_reach: 0.50
+    the_divide: 0.50
+    scattered_isles: 0.50
+    the_scar: 0.50
+    middling_wood: 0.33
+    gelie_delta: 0.33
+    claws_of_azal: 0.25
+    moorwake: 0.25
+    
+  #---------------------------------------
+
+ fish_drops:
+  #---------------------------------------
+  # Base for all fishable
+  # Three tiers of loot, (e) for enchanted items. Assume an item from the rare
+  #   group will drop 8% of the time and 10% for the uncommon group. When the
+  #   rare group is chosen, each item within has a 16.67% chance of being
+  #   selected. Uncommon group percentages are listed below.
+  # Common: RAW_FISH
+  # Uncommon: LEATHER_BOOTS (10.87%), LEATHER (10.87%), BONE (10.87%),
+  #   POTION (10.87%), STRING (5.43%), FISHING_ROD (2.17%), BOWL (10.87%),
+  #   STICK (5.43%), INK_SACK (10.87%), ROTTEN_FLESH (10.87%),
+  #   TRIPWIRE_HOOK (10.87%)
+  # Rare: NAME_TAG, SADDLE, WATER_LILY, BOW(e), FISHING_ROD(e), BOOK(e)
+
+  mat_RAW_FISH:
+   base_rate: 0.55
+   subtypes: [0, 1, 2]
+   biomes:
+    waterways: 1.0
+
+  mat_WATER_LILY:
+   inherit: mat_RAW_FISH
+   base_rate: 0.05
+
+  mat_LEATHER:
+   inherit: mat_WATER_LILY
+
+  mat_BOWL:
+   inherit: mat_WATER_LILY
+
+  mat_LEATHER_BOOTS:
+   inherit: mat_WATER_LILY
+
+  mat_ROTTEN_FLESH:
+   inherit: mat_WATER_LILY
+
+  mat_STICK:
+   inherit: mat_WATER_LILY
+
+  mat_STRING:
+   inherit: mat_WATER_LILY
+
+  mat_BONE:
+   inherit: mat_WATER_LILY
+
+  mat_INK_SACK:
+   inherit: mat_WATER_LILY
+
+  #---------------------------------------
+# Example config using replacement, if replace_fishing: true is set
+# fish_drops:
+#  mat_FISH:
+#   # 50% of drops will be fish, regardless of "minecraft" drops.
+#   base_rate: 0.5
+#   subtypes: [0, 1, 2] # note that subtypes only apply for fish.
+#
+#  mat_ENCHANTED_BOOK:
+#   # 25% of drops will be enchanted books, without any "treasure" enchants
+#   base_rate: 0.25
+#    random_enchant: true
+#    treasure_enchant: false
+#
+#  mat_LEATHER_BOOTS:
+#   # 25% of drops will be leather boots, with "treasure" enchants
+#   base_rate: 0.25
+#    random_enchant: true
+#    treasure_enchant: true

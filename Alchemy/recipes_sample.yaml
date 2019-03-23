@@ -1,0 +1,17 @@
+Vigorine_Elixir: # EXAMPLE RECIPE
+    binding_agent: 35
+    primary_aspect: MUNDANE_LIFE
+    aspects:
+        MUNDANE_LIFE: 200
+        MUNDANE_MECHANIC: 100
+        MUNDANE_AIR: 100
+    result: VIGORINE_ELIXIR
+Vigorine_Aeriform: # EXAMPLE RECIPE
+    binding_agent: 89
+    primary_aspect: MUNDANE_LIFE
+    aspects:
+        MUNDANE_LIFE: 400
+        MUNDANE_MECHANIC: 100
+        MUNDANE_AIR: 200
+        MUNDANE_CORRUPT: 100
+    result: VIGORINE_AERIFORM
