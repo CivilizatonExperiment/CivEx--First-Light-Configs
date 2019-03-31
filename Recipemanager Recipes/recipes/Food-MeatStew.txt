@@ -1,0 +1,69 @@
+//Meat Stew - gives stew recipe for all possible meats
+COMBINE
+grilled_pork:0 + carrot_item:0 + baked_potato:0 + red_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+@itemname Pork Stew
+
+COMBINE
+grilled_pork:0 + carrot_item:0 + baked_potato:0 + brown_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+@itemname Pork Stew
+
+COMBINE
+cooked_fish:0 + carrot_item:0 + baked_potato:0 + red_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+@itemname Cod Stew
+
+COMBINE
+cooked_fish:0 + carrot_item:0 + baked_potato:0 + brown_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+@itemname Cod Stew
+
+COMBINE
+cooked_fish:1 + carrot_item:0 + baked_potato:0 + red_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+@itemname Salmon Stew
+
+COMBINE
+cooked_fish:1 + carrot_item:0 + baked_potato:0 + brown_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+@itemname Salmon Stew
+
+COMBINE
+cooked_beef:0 + carrot_item:0 + baked_potato:0 + red_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+@itemname Beef Stew
+
+COMBINE
+cooked_beef:0 + carrot_item:0 + baked_potato:0 + brown_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+@itemname Beef Stew
+
+COMBINE
+cooked_chicken:0 + carrot_item:0 + baked_potato:0 + red_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+@itemname Chicken Stew
+
+COMBINE
+cooked_chicken:0 + carrot_item:0 + baked_potato:0 + brown_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+@itemname Chicken Stew
+
+COMBINE
+cooked_mutton:0 + carrot_item:0 + baked_potato:0 + red_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+@itemname Mutton Stew
+
+COMBINE
+cooked_mutton:0 + carrot_item:0 + baked_potato:0 + brown_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+@itemname Mutton Stew
+
+//Shapeless Rabbit Stew - removes shaped restriction on rabbit stew
+COMBINE
+cooked_rabbit:0 + carrot_item:0 + baked_potato:0 + brown_mushroom:0 + bowl:0
+= rabbit_stew:0:1
+
+COMBINE
+cooked_rabbit:0 + carrot_item:0 + baked_potato:0 + red_mushroom:0 + bowl:0
+= rabbit_stew:0:1

@@ -1,0 +1,4 @@
+craft [Pearl Fuel Fix]
+blaze_powder
+=blaze_powder:0:1
+@ingrcond blaze_powder | name <yellow>Soul Fuel

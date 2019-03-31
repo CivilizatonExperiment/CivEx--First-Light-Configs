@@ -1,0 +1,250 @@
+SMELT
+SOUL_SAND:*
+= glass:0:1
+
+//Stained Glass
+
+//Black
+COMBINE
+stained_glass:* + INK_SACK:0
+= stained_glass:15:1
+
+//Red
+COMBINE
+stained_glass:* + INK_SACK:1
+= stained_glass:14:1
+
+//Green
+COMBINE
+stained_glass:* + INK_SACK:2
+= stained_glass:13:1
+
+//Brown
+COMBINE
+stained_glass:* + INK_SACK:3
+= stained_glass:12:1
+
+//Blue
+COMBINE
+stained_glass:* + INK_SACK:4
+= stained_glass:11:1
+
+//Purple
+COMBINE
+stained_glass:* + INK_SACK:5
+= stained_glass:10:1
+
+//Cyan
+COMBINE
+stained_glass:* + INK_SACK:6
+= stained_glass:9:1
+
+//Light Gray
+COMBINE
+stained_glass:* + INK_SACK:7
+= stained_glass:8:1
+
+//Gray
+COMBINE
+stained_glass:* + INK_SACK:8
+= stained_glass:7:1
+
+//Pink
+COMBINE
+stained_glass:* + INK_SACK:9
+= stained_glass:6:1
+
+//Lime
+COMBINE
+stained_glass:* + INK_SACK:10
+= stained_glass:5:1
+
+//Yellow
+COMBINE
+stained_glass:* + INK_SACK:11
+= stained_glass:4:1
+
+//Light Blue
+COMBINE
+stained_glass:* + INK_SACK:12
+= stained_glass:3:1
+
+//Magenta
+COMBINE
+stained_glass:* + INK_SACK:13
+= stained_glass:2:1
+
+//Orange
+COMBINE
+stained_glass:* + INK_SACK:14
+= stained_glass:1:1
+
+//White
+COMBINE
+stained_glass:* + INK_SACK:15
+= stained_glass:0:1
+
+//Stained Panes
+
+//Black
+COMBINE
+stained_glass_pane:* + INK_SACK:0
+= stained_glass_pane:15:1
+
+//Red
+COMBINE
+stained_glass_pane:* + INK_SACK:1
+= stained_glass_pane:14:1
+
+//Green
+COMBINE
+stained_glass_pane:* + INK_SACK:2
+= stained_glass_pane:13:1
+
+//Brown
+COMBINE
+stained_glass_pane:* + INK_SACK:3
+= stained_glass_pane:12:1
+
+//Blue
+COMBINE
+stained_glass_pane:* + INK_SACK:4
+= stained_glass_pane:11:1
+
+//Purple
+COMBINE
+stained_glass_pane:* + INK_SACK:5
+= stained_glass_pane:10:1
+
+//Cyan
+COMBINE
+stained_glass_pane:* + INK_SACK:6
+= stained_glass_pane:9:1
+
+//Light Gray
+COMBINE
+stained_glass_pane:* + INK_SACK:7
+= stained_glass_pane:8:1
+
+//Gray
+COMBINE
+stained_glass_pane:* + INK_SACK:8
+= stained_glass_pane:7:1
+
+//Pink
+COMBINE
+stained_glass_pane:* + INK_SACK:9
+= stained_glass_pane:6:1
+
+//Lime
+COMBINE
+stained_glass_pane:* + INK_SACK:10
+= stained_glass_pane:5:1
+
+//Yellow
+COMBINE
+stained_glass_pane:* + INK_SACK:11
+= stained_glass_pane:4:1
+
+//Light Blue
+COMBINE
+stained_glass_pane:* + INK_SACK:12
+= stained_glass_pane:3:1
+
+//Magenta
+COMBINE
+stained_glass_pane:* + INK_SACK:13
+= stained_glass_pane:2:1
+
+//Orange
+COMBINE
+stained_glass_pane:* + INK_SACK:14
+= stained_glass_pane:1:1
+
+//White
+COMBINE
+stained_glass_pane:* + INK_SACK:15
+= stained_glass_pane:0:1
+
+//Normal Glass Panes
+
+//Black
+COMBINE
+glass_pane:* + INK_SACK:0
+= stained_glass_pane:15:1
+
+//Red
+COMBINE
+glass_pane:* + INK_SACK:1
+= stained_glass_pane:14:1
+
+//Green
+COMBINE
+glass_pane:* + INK_SACK:2
+= stained_glass_pane:13:1
+
+//Brown
+COMBINE
+glass_pane:* + INK_SACK:3
+= stained_glass_pane:12:1
+
+//Blue
+COMBINE
+glass_pane:* + INK_SACK:4
+= stained_glass_pane:11:1
+
+//Purple
+COMBINE
+glass_pane:* + INK_SACK:5
+= stained_glass_pane:10:1
+
+//Cyan
+COMBINE
+glass_pane:* + INK_SACK:6
+= stained_glass_pane:9:1
+
+//Light Gray
+COMBINE
+glass_pane:* + INK_SACK:7
+= stained_glass_pane:8:1
+
+//Gray
+COMBINE
+glass_pane:* + INK_SACK:8
+= stained_glass_pane:7:1
+
+//Pink
+COMBINE
+glass_pane:* + INK_SACK:9
+= stained_glass_pane:6:1
+
+//Lime
+COMBINE
+glass_pane:* + INK_SACK:10
+= stained_glass_pane:5:1
+
+//Yellow
+COMBINE
+glass_pane:* + INK_SACK:11
+= stained_glass_pane:4:1
+
+//Light Blue
+COMBINE
+glass_pane:* + INK_SACK:12
+= stained_glass_pane:3:1
+
+//Magenta
+COMBINE
+glass_pane:* + INK_SACK:13
+= stained_glass_pane:2:1
+
+//Orange
+COMBINE
+glass_pane:* + INK_SACK:14
+= stained_glass_pane:1:1
+
+//White
+COMBINE
+glass_pane:* + INK_SACK:15
+= stained_glass_pane:0:1
+

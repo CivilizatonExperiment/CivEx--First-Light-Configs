@@ -1,0 +1,60 @@
+//Removes Vanilla Prismarine Crafting - now uses cobble and mossy cobble
+craft
+@remove
+prismarine_shard:0 + prismarine_crystals:0 + prismarine_shard:0
+prismarine_crystals:0 + prismarine_crystals:0 + prismarine_crystals:0
+prismarine_shard:0 + prismarine_crystals:0 + prismarine_shard:0
+= sea_lantern:0:1
+
+combine
+prismarine_crystals:0 + prismarine_crystals:0 + prismarine_crystals:0 + prismarine_crystals:0
+= sea_lantern:0:1
+
+craft
+@remove
+prismarine_shard:0 + prismarine_shard:0
+prismarine_shard:0 + prismarine_shard:0
+= prismarine:0:1
+
+craft
+cobblestone:0 + cobblestone:0 + cobblestone:0
+cobblestone:0 + ink_sack:6 + cobblestone:0
+cobblestone:0 + cobblestone:0 + cobblestone:0
+= prismarine:0:8
+
+craft
+cobblestone:0 + cobblestone:0 + cobblestone:0
+cobblestone:0 + red_rose:1 + cobblestone:0
+cobblestone:0 + cobblestone:0 + cobblestone:0
+= prismarine:0:8
+
+craft
+@remove
+prismarine_shard:0 + prismarine_shard:0 + prismarine_shard:0
+prismarine_shard:0 + prismarine_shard:0 + prismarine_shard:0
+prismarine_shard:0 + prismarine_shard:0 + prismarine_shard:0
+= prismarine:1:1
+
+craft
+prismarine:0 + prismarine:0 + air
+prismarine:0 + prismarine:0 + air
+= prismarine:1:4
+
+craft
+@remove
+prismarine_shard:0 + prismarine_shard:0 + prismarine_shard:0
+prismarine_shard:0 + ink_sack:0 + prismarine_shard:0
+prismarine_shard:0 + prismarine_shard:0 + prismarine_shard:0
+= prismarine:2:1
+
+craft
+MOSSY_cobblestone:0 + MOSSY_cobblestone:0 + MOSSY_cobblestone:0
+MOSSY_cobblestone:0 + ink_sack:6 + MOSSY_cobblestone:0
+MOSSY_cobblestone:0 + MOSSY_cobblestone:0 + MOSSY_cobblestone:0
+= prismarine:2:8
+
+craft
+MOSSY_cobblestone:0 + MOSSY_cobblestone:0 + MOSSY_cobblestone:0
+MOSSY_cobblestone:0 + red_rose:1 + MOSSY_cobblestone:0
+MOSSY_cobblestone:0 + MOSSY_cobblestone:0 + MOSSY_cobblestone:0
+= prismarine:2:8

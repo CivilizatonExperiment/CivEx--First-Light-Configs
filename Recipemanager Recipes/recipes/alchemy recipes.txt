@@ -1,0 +1,81 @@
+craft [Alembic Bellows]
+iron_ingot + iron_ingot + iron_ingot
+redstone + furnace + redstone
+iron_ingot + iron_ingot + iron_ingot
+=gold_ingot:0:1
+@name <yellow>Alembic Bellows
+@ingrcond iron_ingot | nometa | needed 3
+@ingrcond iron_ingot | name <yellow>Iron Casing | needed 2
+@ingrcond iron_ingot | name <yellow>Standard Machine Component | needed 1
+@ingrcond redstone | nometa
+
+craft [Alembic Chamber]
+iron_ingot + chest + iron_ingot
+redstone + iron_ingot + redstone
+iron_ingot + iron_ingot + iron_ingot
+=gold_ingot:0:1
+@name <yellow>Alembic Chamber
+@ingrcond iron_ingot | nometa | needed 4
+@ingrcond iron_ingot | name <yellow>Intricate Machine Component | needed 1
+@ingrcond iron_ingot | name <yellow>Strong Delirium Resonator | needed 1
+@ingrcond redstone | nometa
+
+craft [Alembic]
+stick + iron_ingot + stick
+cobblestone + gold_ingot + cobblestone
+cobblestone + gold_ingot + cobblestone
+=observer:0:1
+@name <yellow>Alembic
+@ingrcond iron_ingot | nometa | needed 1
+@ingrcond gold_ingot | name <yellow>Alembic Chamber | needed 1
+@ingrcond gold_ingot | name <yellow>Alembic Bellows | needed 1
+
+craft [Slimeball]
+glowstone_dust + water_bucket
+=slime_ball:0:8
+@ingrcond glowstone_dust | name <yellow>Quartz Powder
+@keepitem water_bucket
+
+craft [Shaman Sap Redstone]
+redstone + slime_ball + redstone
+slime_ball + gold_nugget + slime_ball
+redstone + slime_ball + redstone
+=paper:0:4
+@name <yellow>Shaman Sap
+@ingrcond redstone | nometa
+@ingrcond slime_ball| nometa
+@ingrcond gold_nugget | nometa
+
+craft [Shaman Sap Glowstone]
+glowstone_dust + slime_ball + air
+slime_ball + gold_nugget + slime_ball
+air + slime_ball + air
+=paper:0:4
+@name <yellow>Shaman Sap
+@ingrcond glowstone_dust | nometa
+@ingrcond slime_ball| nometa
+@ingrcond gold_nugget | nometa
+
+craft [Badmuun Melon Slice]
+glowstone_dust + gold_nugget + glowstone_dust
+gold_nugget + melon + gold_nugget
+glowstone_dust + gold_nugget + glowstone_dust
+=speckled_melon:0:1
+@name <yellow>Badmuun Melon Slice
+@ingrcond glowstone_dust | nometa
+@ingrcond gold_nugget | nometa
+@ingrcond melon | nometa
+@lore <gold><italic>A melon slice prepared in the traditional way
+@lore <gold><italic>of the primitive Badmuun tribe.
+
+craft [Gilded Badmuun Melon]
+gold_nugget + gold_nugget + gold_nugget
+gold_nugget + speckled_melon + gold_nugget
+gold_nugget + gold_nugget + gold_nugget
+=speckled_melon:0:1
+@name <yellow>Gilded Badmuun Melon
+@ingrcond gold_nugget | nometa
+@ingrcond speckled_melon | name <yellow>Badmuun Melon Slice
+
+
+

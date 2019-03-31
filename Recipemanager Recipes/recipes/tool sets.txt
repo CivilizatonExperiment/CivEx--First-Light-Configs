@@ -1,0 +1,382 @@
+craft
+@individualresults
+paper
+= paper:0:1
+@ingrcond paper | name <yellow>Delirium Ore Chunk
+@name <yellow>Delirium Ore Chunk
+= paper:0:1
+@ingrcond paper | name <yellow>Adamantine Ore Chunk
+@name <yellow>Adamantine Ore Chunk
+= paper:0:1
+@ingrcond paper | name<yellow>Repair Orb
+@name <yellow>Orb of Repair
+
+craft [Crimson Steel Helmet]
+@individualresults
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + air + iron_ingot
+= diamond_helmet:0:1
+@ingrcond iron_ingot | name <yellow>Crimson Steel Ingot
+@name <yellow>Crimson Steel Helmet
+@lore <blue>Material: Crimson Steel
+@lore <blue>Set Bonus: +1 Flat Damage Reduction
+@lore <gray>Durability: 589/589
+= diamond_helmet:0:1
+@ingrcond iron_ingot | name <yellow>Soulsteel Ingot
+@name <yellow>Soulsteel Helmet
+@lore <blue>Material: Soulsteel
+@lore <blue>Set Bonus: increased arrow damage and velocity.
+@lore <gray>Durability: 439/439
+= iron_helmet:0:1
+@ingrcond iron_ingot | nometa
+
+craft [Crimson Steel Chestplate]
+@individualresults
+iron_ingot + air + iron_ingot
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + iron_ingot + iron_ingot
+= diamond_chestplate:0:1
+@ingrcond iron_ingot | name <yellow>Crimson Steel Ingot
+@name <yellow>Crimson Steel Chestplate
+@lore <blue>Material: Crimson Steel
+@lore <blue>Set Bonus: +1 Flat Damage Reduction
+@lore <gray>Durability: 1134/1134
+= diamond_chestplate:0:1
+@ingrcond iron_ingot | name <yellow>Soulsteel Ingot
+@name <yellow>Soulsteel Chestplate
+@lore <blue>Material: Soulsteel
+@lore <blue>Set Bonus: increased arrow damage and velocity.
+@lore <gray>Durability: 742/742
+= iron_chestplate:0:1
+@ingrcond iron_ingot | nometa
+
+craft [Crimson Steel Leggings]
+@individualresults
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + air + iron_ingot
+iron_ingot + air + iron_ingot
+= diamond_leggings:0:1
+@ingrcond iron_ingot | name <yellow>Crimson Steel Ingot
+@name <yellow>Crimson Steel Leggings
+@lore <blue>Material: Crimson Steel
+@lore <blue>Set Bonus: +1 Flat Damage Reduction
+@lore <gray>Durability: 952/952
+= diamond_leggings:0:1
+@ingrcond iron_ingot | name <yellow>Soulsteel Ingot
+@name <yellow>Soulsteel Leggings
+@lore <blue>Material: Soulsteel
+@lore <blue>Set Bonus: increased arrow damage and velocity.
+@lore <gray>Durability: 631/631
+= iron_leggings:0:1
+@ingrcond iron_ingot | nometa
+
+craft [Crimson Steel Boots]
+@individualresults
+iron_ingot + air + iron_ingot
+iron_ingot + air + iron_ingot
+= diamond_boots:0:1
+@ingrcond iron_ingot | name <yellow>Crimson Steel Ingot
+@name <yellow>Crimson Steel Boots
+@lore <blue>Material: Crimson Steel
+@lore <blue>Set Bonus: +1 Flat Damage Reduction
+@lore <gray>Durability: 731/731
+= diamond_boots:0:1
+@ingrcond iron_ingot | name <yellow>Soulsteel Ingot
+@name <yellow>Soulsteel Boots
+@lore <blue>Material: Soulsteel
+@lore <blue>Set Bonus: increased arrow damage and velocity.
+@lore <gray>Durability: 585/585
+= iron_boots:0:1
+@ingrcond iron_ingot | nometa
+
+craft [Crimson Steel Sword]
+@individualresults
+iron_ingot + air + air
+iron_ingot + air + air
+stick + air + air
+= diamond_sword:0:1
+@name <yellow>Crimson Steel Sword
+@ingrcond iron_ingot | name <yellow>Crimson Steel Ingot
+@lore <blue>Material: Crimson Steel
+@lore <blue>Damage +1
+@lore <gray>Durability: 2541/2541
+= iron_sword:0:1
+@ingrcond iron_ingot | nometa
+
+craft [Crimson Steel Pickaxe]
+@individualresults
+iron_ingot + iron_ingot + iron_ingot
+air + stick + air
+air + stick + air
+= diamond_pickaxe:0:1
+@name <yellow>Crimson Steel Pickaxe
+@ingrcond iron_ingot | name <yellow>Crimson Steel Ingot
+@lore <blue>Material: Crimson Steel
+@lore <gray>Durability: 2541/2541
+= iron_pickaxe
+@ingrcond iron_ingot | nometa
+
+craft [Crimson Steel Axe]
+@individualresults
+iron_ingot + iron_ingot + air
+iron_ingot + stick + air
+air + stick + air
+= diamond_axe:0:1
+@name <yellow>Crimson Steel Axe
+@ingrcond iron_ingot | name <yellow>Crimson Steel Ingot
+@lore <blue>Material: Crimson Steel
+@lore <gray>Durability: 2541/2541
+= iron_axe
+@ingrcond iron_ingot | nometa
+
+craft [Crimson Steel Shovel]
+@individualresults
+air + iron_ingot + air
+air + stick + air
+air + stick + air
+= diamond_shovel:0:1
+@name <yellow>Crimson Steel Shovel
+@ingrcond iron_ingot | name <yellow>Crimson Steel Ingot
+@lore <blue>Material: Crimson Steel
+@lore <gray>Durability: 2541/2541
+= iron_shovel
+@ingrcond iron_ingot | nometa
+
+craft [Crimson Steel Hoe]
+@individualresults
+iron_ingot + iron_ingot + air
+air + stick + air
+air + stick + air
+= diamond_hoe:0:1
+@name <yellow>Crimson Steel Hoe
+@ingrcond iron_ingot | name <yellow>Crimson Steel Ingot
+@lore <blue>Material: Crimson Steel
+@lore <gray>Durability: 2541/2541
+= iron_hoe
+@ingrcond iron_ingot | nometa
+
+craft [Gold Helmet]
+gold_ingot + gold_ingot + gold_ingot
+gold_ingot + air + gold_ingot
+= gold_helmet:0:1
+@ingrcond gold_ingot | nometa
+
+craft [Gold Chestplate]
+gold_ingot + air + gold_ingot
+gold_ingot + gold_ingot + gold_ingot
+gold_ingot + gold_ingot + gold_ingot
+= gold_chestplate:0:1
+@ingrcond gold_ingot | nometa
+
+craft [Gold Leggings]
+gold_ingot + gold_ingot + gold_ingot
+gold_ingot + air + gold_ingot
+gold_ingot + air + gold_ingot
+= gold_leggings:0:1
+@ingrcond gold_ingot | nometa
+
+craft [Gold Boots]
+gold_ingot + air + gold_ingot
+gold_ingot + air + gold_ingot
+= gold_boots:0:1
+@ingrcond gold_ingot | nometa
+
+craft [Gold Sword]
+gold_ingot + air + air
+gold_ingot + air + air
+stick + air + air
+= gold_sword:0:1
+@ingrcond gold_ingot | nometa
+
+craft [Gold Pickaxe]
+gold_ingot + gold_ingot + gold_ingot
+air + stick + air
+air + stick + air
+= gold_pickaxe:0:1
+@ingrcond gold_ingot | nometa
+
+craft [Gold Axe]
+gold_ingot + gold_ingot + air
+gold_ingot + stick + air
+air + stick + air
+= gold_axe:0:1
+@ingrcond gold_ingot | nometa
+
+craft [Gold Shovel]
+@individualresults
+air + gold_ingot + air
+air + stick + air
+air + stick + air
+= gold_shovel
+@ingrcond gold_ingot | nometa
+
+craft [Gold Steel Hoe]
+gold_ingot + gold_ingot + air
+air + stick + air
+air + stick + air
+= gold_hoe
+@ingrcond gold_ingot | nometa
+
+craft [Diamond Helmet]
+diamond + diamond + diamond
+diamond + air + diamond
+= diamond_helmet:0:1
+@ingrcond diamond | nometa
+
+craft [Diamond Chestplate]
+diamond + air + diamond
+diamond + diamond + diamond
+diamond + diamond + diamond
+= diamond_chestplate:0:1
+@ingrcond diamond | nometa
+
+craft [Diamond Leggings]
+diamond + diamond + diamond
+diamond + air + diamond
+diamond + air + diamond
+= diamond_leggings:0:1
+@ingrcond diamond | nometa
+
+craft [Diamond Boots]
+diamond + air + diamond
+diamond + air + diamond
+= diamond_boots:0:1
+@ingrcond diamond | nometa
+
+craft [Diamond Sword]
+diamond + air + air
+diamond + air + air
+stick + air + air
+= diamond_sword:0:1
+@ingrcond diamond | nometa
+
+craft [Diamond Pickaxe]
+diamond + diamond + diamond
+air + stick + air
+air + stick + air
+= diamond_pickaxe:0:1
+@ingrcond diamond | nometa
+
+craft [Diamond Axe]
+diamond + diamond + air
+diamond + stick + air
+air + stick + air
+= diamond_axe:0:1
+@ingrcond diamond | nometa
+
+craft [Diamond Shovel]
+@individualresults
+air + diamond + air
+air + stick + air
+air + stick + air
+= diamond_shovel
+@ingrcond diamond | nometa
+
+craft [Diamond Steel Hoe]
+diamond + diamond + air
+air + stick + air
+air + stick + air
+= diamond_hoe
+@ingrcond diamond | nometa
+
+craft [Remove Jukebox]
+@remove
+planks + planks + planks
+planks + diamond + planks
+planks + planks + planks
+= jukebox:0:1
+
+craft [Remove Noteblock]
+@remove
+planks + planks + planks
+planks + redstone + planks
+planks + planks + planks
+= note_block:0:1
+
+craft [Fix Iron Block]
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + wood + iron_ingot
+iron_ingot + iron_ingot + iron_ingot
+= iron_block:0:1
+@ingrcond iron_ingot | nometa
+
+craft [Other Iron Block]
+iron_block
+= iron_ingot:0:8
+@ingrcond iron_block | nometa
+
+craft [Fix Gold Block]
+gold_ingot + gold_ingot + gold_ingot
+gold_ingot + gold_ingot + gold_ingot
+gold_ingot + gold_ingot + gold_ingot
+= gold_block:0:1
+@ingrcond gold_ingot | nometa
+
+craft [Fix Emerald Block]
+emerald + emerald + emerald
+emerald + emerald + emerald
+emerald + emerald + emerald
+= emerald_block:0:1
+@ingrcond emerald | nometa
+
+craft [Fix Diamond Block]
+diamond + diamond + diamond
+diamond + diamond + diamond
+diamond + diamond + diamond
+= diamond_block:0:1
+@ingrcond diamond | nometa
+
+craft [Fix Redstone Block]
+redstone + redstone + redstone
+redstone + redstone + redstone
+redstone + redstone + redstone
+= redstone_block:0:1
+@ingrcond redstone | nometa
+
+craft [Fix Glowstone Block]
+glowstone_dust + glowstone_dust + air
+glowstone_dust + glowstone_dust + air
+= glowstone_block
+@ingrcond glowstone_dust | nometa
+
+craft [Fix Anvil]
+iron_block + iron_block + iron_block
+air + iron_ingot + air
+iron_ingot + iron_ingot + iron_ingot
+@ingrcond iron_block | nometa
+@ingrcond iron_ingot | nometa
+
+craft [Fix Iron Door]
+iron_ingot + iron_ingot + air
+iron_ingot + iron_ingot + air
+iron_ingot + iron_ingot + air
+= iron_door:0:3
+@ingrcond iron_ingot | nometa
+
+craft [Iron Fence]
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + iron_ingot + iron_ingot
+= iron_fence:0:16
+@ingrcond iron_ingot | nometa
+
+craft [Book]
+paper + paper + paper
+leather + air + air
+= book:0:1
+@ingrcond paper | nometa
+
+craft [Gold Ore Chunk]
+@individualresults
+iron_nugget + iron_nugget
+iron_nugget + iron_nugget
+= gold_ingot:0:1
+@ingrcond iron_nugget | name <yellow>Gold Ore Fragment
+= iron_ingot:0:1
+@ingrcond iron_nugget | name <yellow>Iron Ore Fragment
+
+
+fuel [Nightmare Fuel]
+coal % 160
+@ingrcond coal | name <yellow>Nightmare Fuel
+
+

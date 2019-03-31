@@ -1,0 +1,209 @@
+//Water Crafting - adds crafting recipe for concrete
+craft
+concrete_powder:0 + concrete_powder:0 + concrete_powder:0
+concrete_powder:0 + water_bucket + concrete_powder:0 
+concrete_powder:0 + concrete_powder:0 + concrete_powder:0
+= concrete:0:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:1 + concrete_powder:1 + concrete_powder:1
+concrete_powder:1 + water_bucket + concrete_powder:1 
+concrete_powder:1 + concrete_powder:1 + concrete_powder:1
+= concrete:1:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:2 + concrete_powder:2 + concrete_powder:2
+concrete_powder:2 + water_bucket + concrete_powder:2 
+concrete_powder:2 + concrete_powder:2 + concrete_powder:2
+= concrete:2:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:3 + concrete_powder:3 + concrete_powder:3
+concrete_powder:3 + water_bucket + concrete_powder:3 
+concrete_powder:3 + concrete_powder:3 + concrete_powder:3
+= concrete:3:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:4 + concrete_powder:4 + concrete_powder:4
+concrete_powder:4 + water_bucket + concrete_powder:4 
+concrete_powder:4 + concrete_powder:4 + concrete_powder:4
+= concrete:4:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:5 + concrete_powder:5 + concrete_powder:5
+concrete_powder:5 + water_bucket + concrete_powder:5 
+concrete_powder:5 + concrete_powder:5 + concrete_powder:5
+= concrete:5:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:6 + concrete_powder:6 + concrete_powder:6
+concrete_powder:6 + water_bucket + concrete_powder:6 
+concrete_powder:6 + concrete_powder:6 + concrete_powder:6
+= concrete:6:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:7 + concrete_powder:7 + concrete_powder:7
+concrete_powder:7 + water_bucket + concrete_powder:7 
+concrete_powder:7 + concrete_powder:7 + concrete_powder:7
+= concrete:7:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:8 + concrete_powder:8 + concrete_powder:8
+concrete_powder:8 + water_bucket + concrete_powder:8 
+concrete_powder:8 + concrete_powder:8 + concrete_powder:8
+= concrete:8:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:9 + concrete_powder:9 + concrete_powder:9
+concrete_powder:9 + water_bucket + concrete_powder:9 
+concrete_powder:9 + concrete_powder:9 + concrete_powder:9
+= concrete:9:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:10 + concrete_powder:10 + concrete_powder:10
+concrete_powder:10 + water_bucket + concrete_powder:10 
+concrete_powder:10 + concrete_powder:10 + concrete_powder:10
+= concrete:10:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:11 + concrete_powder:11 + concrete_powder:11
+concrete_powder:11 + water_bucket + concrete_powder:11 
+concrete_powder:11 + concrete_powder:11 + concrete_powder:11
+= concrete:11:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:12 + concrete_powder:12 + concrete_powder:12
+concrete_powder:12 + water_bucket + concrete_powder:12 
+concrete_powder:12 + concrete_powder:12 + concrete_powder:12
+= concrete:12:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:13 + concrete_powder:13 + concrete_powder:13
+concrete_powder:13 + water_bucket + concrete_powder:13 
+concrete_powder:13 + concrete_powder:13 + concrete_powder:13
+= concrete:13:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:14 + concrete_powder:14 + concrete_powder:14
+concrete_powder:14 + water_bucket + concrete_powder:14 
+concrete_powder:14 + concrete_powder:14 + concrete_powder:14
+= concrete:14:8
+@keepitem water_bucket | replace bucket
+
+craft
+concrete_powder:15 + concrete_powder:15 + concrete_powder:15
+concrete_powder:15 + water_bucket + concrete_powder:15 
+concrete_powder:15 + concrete_powder:15 + concrete_powder:15
+= concrete:15:8
+@keepitem water_bucket | replace bucket
+
+//Ice Crafting - adds stackable crafting recipe for concrete with ice
+craft
+concrete_powder:0 + concrete_powder:0 + concrete_powder:0
+concrete_powder:0 + ice + concrete_powder:0 
+concrete_powder:0 + concrete_powder:0 + concrete_powder:0
+= concrete:0:8
+
+craft
+concrete_powder:1 + concrete_powder:1 + concrete_powder:1
+concrete_powder:1 + ice + concrete_powder:1 
+concrete_powder:1 + concrete_powder:1 + concrete_powder:1
+= concrete:1:8
+
+craft
+concrete_powder:2 + concrete_powder:2 + concrete_powder:2
+concrete_powder:2 + ice + concrete_powder:2 
+concrete_powder:2 + concrete_powder:2 + concrete_powder:2
+= concrete:2:8
+
+craft
+concrete_powder:3 + concrete_powder:3 + concrete_powder:3
+concrete_powder:3 + ice + concrete_powder:3 
+concrete_powder:3 + concrete_powder:3 + concrete_powder:3
+= concrete:3:8
+
+craft
+concrete_powder:4 + concrete_powder:4 + concrete_powder:4
+concrete_powder:4 + ice + concrete_powder:4 
+concrete_powder:4 + concrete_powder:4 + concrete_powder:4
+= concrete:4:8
+
+craft
+concrete_powder:5 + concrete_powder:5 + concrete_powder:5
+concrete_powder:5 + ice + concrete_powder:5 
+concrete_powder:5 + concrete_powder:5 + concrete_powder:5
+= concrete:5:8
+
+craft
+concrete_powder:6 + concrete_powder:6 + concrete_powder:6
+concrete_powder:6 + ice + concrete_powder:6 
+concrete_powder:6 + concrete_powder:6 + concrete_powder:6
+= concrete:6:8
+
+craft
+concrete_powder:7 + concrete_powder:7 + concrete_powder:7
+concrete_powder:7 + ice + concrete_powder:7 
+concrete_powder:7 + concrete_powder:7 + concrete_powder:7
+= concrete:7:8
+
+craft
+concrete_powder:8 + concrete_powder:8 + concrete_powder:8
+concrete_powder:8 + ice + concrete_powder:8 
+concrete_powder:8 + concrete_powder:8 + concrete_powder:8
+= concrete:8:8
+
+craft
+concrete_powder:9 + concrete_powder:9 + concrete_powder:9
+concrete_powder:9 + ice + concrete_powder:9 
+concrete_powder:9 + concrete_powder:9 + concrete_powder:9
+= concrete:9:8
+
+craft
+concrete_powder:10 + concrete_powder:10 + concrete_powder:10
+concrete_powder:10 + ice + concrete_powder:10 
+concrete_powder:10 + concrete_powder:10 + concrete_powder:10
+= concrete:10:8
+
+craft
+concrete_powder:11 + concrete_powder:11 + concrete_powder:11
+concrete_powder:11 + ice + concrete_powder:11 
+concrete_powder:11 + concrete_powder:11 + concrete_powder:11
+= concrete:11:8
+
+craft
+concrete_powder:12 + concrete_powder:12 + concrete_powder:12
+concrete_powder:12 + ice + concrete_powder:12 
+concrete_powder:12 + concrete_powder:12 + concrete_powder:12
+= concrete:12:8
+
+craft
+concrete_powder:13 + concrete_powder:13 + concrete_powder:13
+concrete_powder:13 + ice + concrete_powder:13 
+concrete_powder:13 + concrete_powder:13 + concrete_powder:13
+= concrete:13:8
+
+craft
+concrete_powder:14 + concrete_powder:14 + concrete_powder:14
+concrete_powder:14 + ice + concrete_powder:14 
+concrete_powder:14 + concrete_powder:14 + concrete_powder:14
+= concrete:14:8
+
+craft
+concrete_powder:15 + concrete_powder:15 + concrete_powder:15
+concrete_powder:15 + ice + concrete_powder:15 
+concrete_powder:15 + concrete_powder:15 + concrete_powder:15
+= concrete:15:8

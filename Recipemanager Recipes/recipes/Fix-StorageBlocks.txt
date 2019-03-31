@@ -1,0 +1,63 @@
+COMBINE
+snow_block:0
+= snow_ball:0:4
+
+COMBINE
+melon_block:0:1
+= melon:0:9
+
+COMBINE
+BONE:0 + BONE:0 + BONE:0
+= bone_block:0:1
+
+COMBINE
+HUGE_MUSHROOM_1:0
+= BROWN_MUSHROOM:0:9
+
+CRAFT
+BROWN_MUSHROOM:0 + BROWN_MUSHROOM:0 + BROWN_MUSHROOM:0
+BROWN_MUSHROOM:0 + BROWN_MUSHROOM:0 + BROWN_MUSHROOM:0
+BROWN_MUSHROOM:0 + BROWN_MUSHROOM:0 + BROWN_MUSHROOM:0
+= HUGE_MUSHROOM_1:0:1
+
+COMBINE
+HUGE_MUSHROOM_2:0
+= RED_MUSHROOM:0:9
+
+CRAFT
+RED_MUSHROOM:0 + RED_MUSHROOM:0 + RED_MUSHROOM:0
+RED_MUSHROOM:0 + RED_MUSHROOM:0 + RED_MUSHROOM:0
+RED_MUSHROOM:0 + RED_MUSHROOM:0 + RED_MUSHROOM:0
+= HUGE_MUSHROOM_2:0:1
+
+COMBINE
+nether_wart_block:0
+= nether_stalk:0:9
+
+COMBINE
+glowstone:0
+= glowstone_dust:0:4
+
+COMBINE
+sea_lantern:0
+= prismarine_crystals:0:4
+
+CRAFT
+chorus_fruit:0 + chorus_fruit:0 + chorus_fruit:0
+chorus_fruit:0 + chorus_fruit:0 + chorus_fruit:0
+chorus_fruit:0 + chorus_fruit:0 + chorus_fruit:0
+= chorus_plant:0:1
+
+COMBINE
+chorus_plant:0
+= chorus_fruit:0:9
+
+CRAFT
+ice:0 + ice:0 + ice:0
+ice:0 + ice:0 + ice:0
+ice:0 + ice:0 + ice:0
+= packed_ice:0:1
+
+COMBINE
+packed_ice:0
+= ice:0:9

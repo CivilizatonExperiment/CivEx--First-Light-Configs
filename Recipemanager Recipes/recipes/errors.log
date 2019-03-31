@@ -1,0 +1,49 @@
+File: written_book_disable
+line 2    Warning: Recipe was not found, can't override/remove it! Added as new recipe.
+          TIP: Use 'rmextract' command to see the exact ingredients needed
+
+File: tool sets
+line 14   Warning: Recipe already created by Minecraft, recipe overwritten!
+          TIP: You can use @override flag to overwrite the recipe or @remove to just remove it.
+line 33   Warning: Recipe already created by Minecraft, recipe overwritten!
+          TIP: You can use @override flag to overwrite the recipe or @remove to just remove it.
+line 53   Warning: Recipe already created by Minecraft, recipe overwritten!
+          TIP: You can use @override flag to overwrite the recipe or @remove to just remove it.
+... and 29 more similar errors.
+line 339  Fatal: Item 'glowstone_block' does not exist!
+          TIP: Name could be different, look in 'name index.html' or 'item aliases.yml' for material names.
+line 340  Fatal: Found the '=' character but with no result!
+line 340  Fatal: Recipe was not added! Review previous errors and fix them.
+          TIP: Warnings do not prevent recipe creation but they should be fixed as well!
+line 346  Fatal: Recipe has more rows of ingredients than allowed!
+line 346  Fatal: Recipe was not added! Review previous errors and fix them.
+          TIP: Warnings do not prevent recipe creation but they should be fixed as well!
+line 347  Warning: Unexpected directive: '@ingrcond iron_ingot | nometa'
+          TIP: This might be caused by previous errors.
+line 349  Fatal: Recipe was not added! Review previous errors and fix them.
+          TIP: Warnings do not prevent recipe creation but they should be fixed as well!
+line 349  Warning: Recipe already created by Minecraft, recipe overwritten!
+          TIP: You can use @override flag to overwrite the recipe or @remove to just remove it.
+line 356  Warning: Recipe already created by Minecraft, recipe overwritten!
+          TIP: You can use @override flag to overwrite the recipe or @remove to just remove it.
+line 378  Warning: Recipe already created by Minecraft, recipe overwritten!
+          TIP: You can use @override flag to overwrite the recipe or @remove to just remove it.
+
+File: machine componenets
+line 58   Warning: Recipe already created by Minecraft, recipe overwritten!
+          TIP: You can use @override flag to overwrite the recipe or @remove to just remove it.
+
+File: Fix-RemoveVanillaRecipes
+line 10   Warning: Recipe already created by Minecraft, recipe overwritten!
+          TIP: You can use @override flag to overwrite the recipe or @remove to just remove it.
+line 15   Warning: Recipe already created by Minecraft, recipe overwritten!
+          TIP: You can use @override flag to overwrite the recipe or @remove to just remove it.
+
+File: builder recipes
+line 14   Warning: Recipe already created by Minecraft, recipe overwritten!
+          TIP: You can use @override flag to overwrite the recipe or @remove to just remove it.
+line 21   Warning: Recipe already created by Minecraft, recipe overwritten!
+          TIP: You can use @override flag to overwrite the recipe or @remove to just remove it.
+
+
+

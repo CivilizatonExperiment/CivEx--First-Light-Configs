@@ -1,0 +1,17 @@
+craft [Jukebox Snitch]
+planks + planks + planks
+emerald + diamond + emerald
+planks + planks + planks
+=jukebox:0:1
+@ingrcond diamond | nometa
+@ingrcond emerald | name <yellow>Infused Emerald
+
+craft [Noteblock Snitch]
+planks + glowstone_dust + planks
+planks + diamond + planks
+planks + emerald + planks
+=note_block:0:1
+@ingrcond diamond | nometa
+@ingrcond emerald | name <yellow>Infused Emerald
+@ingrcond glowstone_dust | nometa
+

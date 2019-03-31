@@ -1,0 +1,11 @@
+//Removes Vanilla End Rod Recipe
+craft
+@remove
+blaze_rod:0
+chorus_fruit_popped:0
+= end_rod:0:4
+
+craft
+prismarine_crystals:0
+quartz_block:*
+= end_rod:0:4

@@ -1,0 +1,18 @@
+//Removes Vanilla Magma Recipe
+craft
+@remove
+magma_cream:0 + magma_cream:0
+magma_cream:0 + magma_cream:0
+= magma:0:1
+
+craft
+cobblestone:0 + cobblestone:0 + cobblestone:0
+cobblestone:0 + lava_bucket:0 + cobblestone:0
+cobblestone:0 + cobblestone:0 + cobblestone:0
+= magma:0:8
+
+craft
+netherrack:0 + netherrack:0 + netherrack:0
+netherrack:0 + lava_bucket:0 + netherrack:0
+netherrack:0 + netherrack:0 + netherrack:0
+= magma:0:8

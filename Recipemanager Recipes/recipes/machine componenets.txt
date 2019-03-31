@@ -1,0 +1,72 @@
+craft [Standard Machine Component]
+iron_ingot + iron_ingot + iron_ingot
+redstone + iron_ingot + redstone
+iron_ingot + iron_ingot + iron_ingot
+=iron_ingot:0:1
+@name <yellow>Standard Machine Component
+@ingrcond iron_ingot | nometa | needed 6
+@ingrcond iron_ingot | name <yellow>Simple Machine Component | needed 1
+@ingrcond redstone | nometa
+
+craft [Intricate Machine Component]
+gold_ingot + redstone + gold_ingot
+gold_ingot + iron_ingot + gold_ingot
+gold_ingot + redstone_block + gold_ingot
+=iron_ingot:0:1
+@name <yellow>Intricate Machine Component
+@ingrcond iron_ingot | name <yellow>Standard Machine Component
+@ingrcond gold_ingot | nometa
+
+craft [Simple Machine Component]
+stick + iron_ingot + stick
+iron_ingot + redstone + iron_ingot
+stick + iron_ingot + stick
+=iron_ingot:0:1
+@name <yellow>Simple Machine Component
+@ingrcond iron_ingot | nometa
+@ingrcond redstone | nometa
+
+craft [Weak Delirium Resonator]
+gold_ingot + stick + gold_ingot
+iron_ingot + redstone + iron_ingot
+gold_ingot + stick + gold_ingot
+=iron_ingot:0:1
+@name <yellow>Weak Delirium Resonator
+@ingrcond iron_ingot | name <yellow>Delirium Ingot
+@ingrcond redstone | nometa
+@ingrcond gold_ingot | nometa
+
+craft [Strong Delirium Resonator]
+gold_ingot + redstone_torch + gold_ingot
+iron_ingot + iron_ingot + iron_ingot
+gold_ingot + iron_ingot + gold_ingot
+=iron_ingot:0:1
+@name <yellow>Strong Delirium Resonator
+@ingrcond iron_ingot | name <yellow>Delirium Ingot | needed 2
+@ingrcond iron_ingot | name <yellow>Weak Delirium Resonator | needed 2
+@ingrcond redstone | nometa
+@ingrcond gold_ingot | nometa
+
+craft [Iron Casing]
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + stick + iron_ingot
+iron_ingot + iron_ingot + iron_ingot
+= iron_ingot:0:1
+@name <yellow>Iron Casing
+@ingrcond iron_ingot | nometa
+
+craft [Adamantine Casing]
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + iron_ingot + iron_ingot
+= iron_ingot:0:1
+@name <yellow>Adamantine Casing
+@ingrcond iron_ingot | name <yellow>Adamantine Ingot | needed 8
+@ingrcond iron_ingot | name <yellow>Iron Casing | needed 1
+
+craft [Quartz Powder]
+quartz + redstone + quartz
+= glowstone_dust:0:1
+@name <yellow>Quartz Powder
+
+

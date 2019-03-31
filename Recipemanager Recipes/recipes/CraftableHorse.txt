@@ -1,0 +1,11 @@
+craft
+HAY_BLOCK:0 + DIAMOND_BLOCK:0 + HAY_BLOCK:0
+DIAMOND_BLOCK:0 + DIAMOND:0 + DIAMOND_BLOCK:0
+HAY_BLOCK:0 + DIAMOND_BLOCK:0 + HAY_BLOCK:0
+= MONSTER_EGG:0:1
+@ingrcond DIAMOND | name <yellow>Infused Gem
+@enchantitem DURABILITY 10
+@itemname &F&oSpawn &eWild Horse
+@itemlore &8&oA Mythical Egg that can
+@itemlore &8&obe used to resurrect a
+@itemlore &8&oWildHorse

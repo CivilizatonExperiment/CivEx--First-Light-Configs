@@ -1,0 +1,20 @@
+craft
+@override
+gold_ingot:0 + air + gold_ingot:0
+gold_ingot:0 + stick:0 + gold_ingot:0
+gold_ingot:0 + redstone:0 + gold_ingot:0
+= powered_rail:0:12
+
+craft
+@override
+iron_ingot:0 + air + iron_ingot:0
+iron_ingot:0 + stone_plate:0 + iron_ingot:0
+iron_ingot:0 + redstone:0 + iron_ingot:0
+= detector_rail:0:12
+
+craft
+@override
+iron_ingot:0 + stick:0 + iron_ingot:0
+iron_ingot:0 + redstone_torch_on:0 + iron_ingot:0
+iron_ingot:0 + stick:0 + iron_ingot:0
+= activator_rail:0:12

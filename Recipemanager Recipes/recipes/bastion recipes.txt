@@ -1,0 +1,126 @@
+craft [Bastion Fix]
+@individualresults
+sponge
+= sponge:0:1
+@ingrcond sponge | name <yellow>City Bastion
+@name City Bastion
+@lore Tier 2 Bastion
+= sponge:0:1
+@ingrcond sponge | name <yellow>Claims Bastion
+@name Claim Bastion
+@lore Tier 1 Bastion
+
+
+craft [Standard Bastion Core]
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + stone + iron_ingot
+= gold_ingot:0:1
+@name <yellow>Standard Bastion Core
+@ingrcond iron_ingot | name <yellow>Weak Delirium Resonator | needed 1
+@ingrcond iron_ingot | name <yellow>Strong Delirium Resonator | needed 2
+@ingrcond iron_ingot | name <yellow>Adamantine Casing | needed 1
+@ingrcond iron_ingot | nometa | needed 4
+
+craft [Crude Bastion Core]
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + cobblestone + iron_ingot
+= gold_ingot:0:1
+@name <yellow>Crude Bastion Core
+@ingrcond iron_ingot | name <yellow>Weak Delirium Resonator | needed 2
+@ingrcond iron_ingot | name <yellow>Strong Delirium Resonator | needed 1
+@ingrcond iron_ingot | name <yellow>Iron Casing | needed 3
+@ingrcond iron_ingot | nometa | needed 2
+
+craft [Standard Bastion Casing]
+iron_ingot + glowstone_dust + iron_ingot
+glowstone_dust + iron_ingot + glowstone_dust
+iron_ingot + glowstone_dust + iron_ingot
+= gold_ingot:0:1
+@name <yellow>Standard Bastion Casing
+@ingrcond iron_ingot | name <yellow>Adamantine Casing | needed 1
+@ingrcond glowstone_dust | name <yellow>Quartz Powder
+@ingrcond iron_ingot | name <yellow>Iron Casing | needed 4
+
+craft [Crystal Lense]
+air + diamond + air
+diamond + redstone + diamond
+air + diamond + air
+= diamond:0:1
+@name <yellow>Crystal Lense
+@ingrcond redstone | nometa
+@ingrcond diamond | nometa
+
+craft [Crystal Lense Rack]
+diamond + diamond + diamond
+iron_ingot + stick + iron_ingot
+iron_ingot + diamond + iron_ingot
+= diamond:0:1
+@name <yellow>Crystal Lense Rack
+@ingrcond iron_ingot | nometa
+@ingrcond stick | nometa
+@ingrcond diamond | nometa | needed 1
+@ingrcond diamond | name <yellow>Crystal Lense | needed 3
+
+craft [Crude Bastion Foci]
+diamond + diamond + diamond
+iron_ingot + iron_ingot + iron_ingot
+wood + wood + wood
+= diamond:0:1
+@name <yellow>Crude Bastion Foci
+@ingrcond iron_ingot | nometa | needed 2
+@ingrcond iron_ingot | name <yellow>Iron Casing | needed 1
+@ingrcond diamond | nometa | needed 2
+@ingrcond diamond | name <yellow>Crystal Lense Rack | needed 1
+
+craft [Standard Bastion Foci]
+diamond + diamond + diamond
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + iron_ingot + iron_ingot
+= diamond:0:1
+@name <yellow>Standard Bastion Foci
+@ingrcond iron_ingot | nometa | needed 4
+@ingrcond iron_ingot | name <yellow>Iron Casing | needed 2
+@ingrcond diamond | name <yellow>Crystal Lense | needed 1
+@ingrcond diamond | name <yellow>Crystal Lense Rack | needed 2
+
+craft [Quartz Insulator]
+air + glowstone_dust + air
+glowstone_dust + iron_ingot + glowstone_dust
+air + glowstone_dust + air
+= iron_ingot:0:1
+@name <yellow>Quartz Insulator
+@ingrcond glowstone_dust | name <yellow>Quartz Powder
+@ingrcond iron_ingot | nometa
+
+craft [City Bastion]
+iron_ingot + diamond + iron_ingot
+iron_ingot + gold_ingot + iron_ingot
+smooth_brick + gold_ingot + smooth_brick
+= sponge:0:1
+@name City Bastion
+@lore Tier 2 Bastion
+@ingrcond gold_ingot | name <yellow>Standard Bastion Casing | needed 1
+@ingrcond iron_ingot | name <yellow>Quartz Insulator | needed 2
+@ingrcond gold_ingot | name <yellow>Standard Bastion Core | needed 1
+@ingrcond diamond | name <yellow>Standard Bastion Foci | needed 1
+@ingrcond iron_ingot | nometa | needed 2
+
+craft [Town Bastion]
+iron_ingot + diamond + iron_ingot
+iron_ingot + gold_ingot + iron_ingot
+stone + gold_ingot + stone
+= sponge:0:1
+@name Town Bastion
+@lore Tier 1 Bastion
+@ingrcond gold_ingot | name <yellow>Standard Bastion Casing | needed 1
+@ingrcond iron_ingot | name <yellow>Quartz Insulator | needed 2
+@ingrcond gold_ingot | name <yellow>Crude Bastion Core | needed 1
+@ingrcond diamond | name <yellow>Crude Bastion Foci | needed 1
+@ingrcond iron_ingot | nometa | needed 2
+
+
+
+
+

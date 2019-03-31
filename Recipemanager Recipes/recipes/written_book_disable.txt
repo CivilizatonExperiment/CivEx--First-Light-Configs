@@ -1,0 +1,7 @@
+//Removes Vanilla Book Recipe
+craft
+@remove
+book:0 + dye
+feather:0 + air:0
+= dirt:0:1
+@ingrcond dye | name <yellow>Venom Sac

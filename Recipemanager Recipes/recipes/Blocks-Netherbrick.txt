@@ -1,0 +1,13 @@
+//Replaces Vanilla Netherbrick Recipes
+smelt
+@override
+netherrack:*
+= nether_brick:0:1
+
+smelt
+nether_wart_block:0
+= red_nether_brick:0:1
+
+smelt
+red_nether_brick:0
+= nether_brick:0:1

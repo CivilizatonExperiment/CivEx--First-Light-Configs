@@ -1,0 +1,35 @@
+craft [Quartz Blocks]
+<stone> + <stone> + <stone>
+<stone> + <quartz> + <stone>
+<stone> + <stone> + <stone>
+=quartz_block:0:8
+
+craft [Redstone Lamp]
+<stick> + <glass> + <stick>
+<glass> + <glowstone_dust> + <glass>
+<stick> + <glass> + <stick>
+=redstone_lamp
+
+
+craft [Rails]
+iron_ingot + air + iron_ingot
+iron_ingot + stick + iron_ingot
+iron_ingot + air + iron_ingot
+=rails:0:64
+
+
+craft [Minecarts]
+iron_ingot + air + iron_ingot
+iron_ingot + iron_ingot + iron_ingot
+=minecart:0:3
+
+craft [Saddle]
+leather + leather + leather
+leather + iron_ingot + leather
+iron_ingot + air + iron_ingot
+= saddle:0:1
+@ingrcond iron_ingot | nometa
+
+craft [Feathers]
+string
+= feather:0:1

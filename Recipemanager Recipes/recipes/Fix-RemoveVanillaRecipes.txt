@@ -1,0 +1,89 @@
+//Disable
+craft
+@remove
+shulker_shell:0
+chest:0
+shulker_shell:0
+= purple_shulker_box:0:1
+
+
+craft
+iron_ingot
+=iron_nugget:0:9
+@ingrcond iron_ingot | nometa
+
+craft
+gold_ingot
+=gold_nugget:0:9
+@ingrcond gold_ingot | nometa
+
+craft
+@remove
+glass:0 + glass:0 + glass:0
+glass:0 + eye_of_ender:0 + glass:0
+glass:0 + ghast_tear:0 + glass:0
+= end_crystal:0:1
+
+craft
+@remove
+obsidian:0 + obsidian:0 + obsidian:0
+obsidian:0 + eye_of_ender:0 + obsidian:0
+obsidian:0 + obsidian:0 + obsidian:0
+= ender_chest:0:1
+
+craft
+@remove
+air + book:0 + air
+diamond:0 + obsidian:0 + diamond:0
+obsidian:0 + obsidian:0 + obsidian:0
+= enchantment_table:0:1
+
+craft
+@remove
+glass:0 + glass:0 + glass:0
+glass:0 + nether_star:0 + glass:0
+obsidian:0 + obsidian:0 + obsidian:0
+= beacon:0:1
+
+craft
+@remove
+iron_block:0 + iron_block:0 + iron_block:0
+air + iron_ingot:0 + air
+iron_ingot:0 + iron_ingot:0 + iron_ingot:0
+= anvil:0:1
+
+combine
+@remove
+spider_eye:0 + brown_mushroom:0 + sugar:0
+= fermented_spider_eye:0:1
+
+combine
+@remove
+ender_pearl:0 + blaze_powder:0
+= eye_of_ender:0:1
+
+combine
+@remove
+stone:3 + cobblestone:0
+= stone:5:2
+
+combine
+@remove
+stone:3 + quartz:0
+= stone:1:1
+
+craft
+@remove
+cobblestone:0 + quartz:0
+quartz:0 + cobblestone:0
+= stone:3:2
+
+smelt
+@remove
+chorus_fruit:*
+= chorus_fruit_popped:0:1
+
+combine
+@remove
+blaze_powder:0 + slime_ball:0
+= magma_cream:0:1

@@ -1,0 +1,4 @@
+//Adds Endstone Recipe using Sandstone
+smelt
+sandstone:*
+= ender_stone:0:1

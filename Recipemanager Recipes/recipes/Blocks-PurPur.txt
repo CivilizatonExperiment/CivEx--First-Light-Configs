@@ -1,0 +1,11 @@
+craft
+@remove
+chorus_fruit_popped:0 + chorus_fruit_popped:0
+chorus_fruit_popped:0 + chorus_fruit_popped:0
+= purpur_block:0:4
+
+craft
+end_bricks:0 + end_bricks:0 + end_bricks:0
+end_bricks:0 + ink_sack:5 + end_bricks:0
+end_bricks:0 + end_bricks:0 + end_bricks:0
+= purpur_block:0:8

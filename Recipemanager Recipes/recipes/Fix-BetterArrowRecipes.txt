@@ -1,0 +1,14 @@
+//Alternate Recipes
+craft
+iron_nugget:0
+stick:0
+feather:0
+= arrow:0:4
+
+//Remove Vanilla Recipe
+craft
+@remove
+air + glowstone_dust:0 + air
+glowstone_dust:0 + arrow:0 + glowstone_dust:0
+air + glowstone_dust:0 + air
+= spectral_arrow:0:2

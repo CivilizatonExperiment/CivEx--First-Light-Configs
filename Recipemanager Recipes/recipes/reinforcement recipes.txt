@@ -1,0 +1,78 @@
+craft [Tier 1 Block Reinforcement]
+cobblestone + iron_ingot + cobblestone
+=iron_ingot:0:10
+@lore <yellow>Tier 1 Block Reinforcement
+@ingrcond iron_ingot | nometa | needed 1
+
+craft [Tier 2 Block Reinforcement]
+iron_ingot + iron_ingot + iron_ingot
+=iron_ingot:0:16
+@lore <yellow>Tier 2 Block Reinforcement
+@ingrcond iron_ingot | nometa | needed 3
+
+craft [Tier 3 Block Reinforcement]
+air + planks + air
+iron_ingot + iron_ingot + iron_ingot
+air + planks + air
+=iron_ingot:0:10
+@lore <yellow>Tier 3 Block Reinforcement
+@ingrcond iron_ingot | nometa | needed 3
+
+craft [Tier 1 Lock Reinforcement]
+planks + iron_ingot + planks
+=gold_ingot:0:1
+@lore <yellow>Tier 1 Lock Reinforcement
+@ingrcond iron_ingot | nometa | needed 1
+
+craft [Tier 2 Lock Reinforcement]
+iron_ingot + gold_ingot + iron_ingot
+=gold_ingot:0:1
+@lore <yellow>Tier 2 Lock Reinforcement
+@ingrcond gold_ingot | nometa | needed 1
+@ingrcond iron_ingot | nometa | needed 2
+
+craft [Tier 3 Lock Reinforcement]
+emerald + gold_ingot + emerald
+=gold_ingot:0:1
+@lore <yellow>Tier 3 Lock Reinforcement
+@ingrcond iron_ingot | nometa | needed 1
+@ingrcond gold_ingot | lore <yellow>Tier 2 Lock Reinforcement | needed 1
+@ingrcond emerald | name <yellow>Infused Emerald | needed 2
+
+craft [Tier 1 Vault Reinforcement]
+iron_ingot + iron_ingot + iron_ingot
+iron_ingot + cobblestone + iron_ingot
+iron_ingot + iron_ingot + iron_ingot
+=emerald:0:16
+@lore <yellow>Tier 1 Vault Reinforcement
+@ingrcond iron_ingot | nometa | needed 5
+@ingrcond iron_ingot | name <yellow>Adamantine Ingot | needed 3
+
+craft [Tier 1 Snitch Reinforcement]
+cobblestone + cobblestone + cobblestone
+cobblestone + emerald + cobblestone
+cobblestone + cobblestone + cobblestone
+=diamond:0:8
+@lore <yellow>Tier 1 Snitch Reinforcement
+@ingrcond emerald | name <yellow>Infused Emerald | needed 1
+
+craft [Tier 2 Snitch Reinforcement]
+cobblestone + cobblestone + cobblestone
+cobblestone + emerald + cobblestone
+cobblestone + diamond + cobblestone
+=diamond:0:4
+@lore <yellow>Tier 2 Snitch Reinforcement
+@ingrcond emerald | name <yellow>Infused Emerald | needed 1
+@ingrcond diamond | nometa
+
+craft [Tier 3 Snitch Reinforcement]
+air + emerald + air
+emerald + diamond + emerald
+air + emerald + air
+=diamond:0:4
+@lore <yellow>Tier 3 Snitch Reinforcement
+@ingrcond emerald | name <yellow>Infused Emerald | needed 4
+@ingrcond diamond | nometa
+
+
+

@@ -1,0 +1,45 @@
+craft [Tinker's Talc]
+air + emerald + air
+glowstone_dust + diamond + glowstone_dust
+air + emerald + air
+=paper:0:2
+@name <yellow>Tinker's Talc
+@ingrcond diamond | nometa
+@ingrcond glowstone_dust | nometa
+@ingrcond emerald | name <yellow>Infused Emerald
+
+craft [Fancy Gem]
+
+diamond + emerald + diamond
+emerald + emerald + emerald
+diamond + emerald + diamond
+=diamond:0:1
+@name <yellow>Infused Gem
+@ingrcond diamond | nometa
+@ingrcond emerald | nometa
+@needexp 315
+@modexp -315
+
+craft [Orb of Enchantment]
+
+glowstone_dust + emerald + glowstone_dust
+emerald + paper + emerald
+glowstone_dust + emerald + glowstone_dust
+= paper:0:1
+@name <yellow>Orb of Enchantment
+@ingrcond glowstone_dust | nometa
+@ingrcond emerald | name <yellow>Infused Emerald
+@ingrcond paper | name <yellow>Inert Orb of Enchantment
+
+craft [Celestial Orb]
+glowstone + diamond + glowstone
+diamond + paper + diamond
+glowstone + diamond + glowstone
+= paper:0:1
+@name <yellow>Celestial Orb
+@ingrcond paper | name <yellow>Inert Celestial Orb
+@ingrcond diamond | name <yellow>Infused Gem
+@ingrcond glowstone | nometa
+
+
+

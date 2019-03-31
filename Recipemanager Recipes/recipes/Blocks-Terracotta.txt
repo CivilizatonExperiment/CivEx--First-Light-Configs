@@ -1,0 +1,4 @@
+//Added Terracotta Recipe, uses dirt
+combine
+dirt:* + dirt:* + dirt:* + dirt:*
+= hard_clay:0:1

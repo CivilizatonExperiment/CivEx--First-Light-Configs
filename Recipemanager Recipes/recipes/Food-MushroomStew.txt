@@ -1,0 +1,23 @@
+//Mushroom Stew
+combine
+brown_mushroom:0 + brown_mushroom:0 + bowl:0
+= mushroom_soup:0:1
+
+combine
+red_mushroom:0 + red_mushroom:0 + bowl:0
+= beetroot_soup:0:1
+@itemname Red Mushroom Stew
+
+combine
+nether_stalk:0 + nether_stalk:0 + bowl:0
+= beetroot_soup:0:1
+@itemname Red Mushroom Stew
+
+combine
+nether_stalk:0 + brown_mushroom:0 + bowl:0
+= mushroom_soup:0:1
+
+combine
+nether_stalk:0 + red_mushroom:0 + bowl:0
+= beetroot_soup:0:1
+@itemname Red Mushroom Stew

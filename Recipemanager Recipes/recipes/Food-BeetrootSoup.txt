@@ -1,0 +1,11 @@
+//Better Beetroot Soup - only uses 3 instead of 6 beetroot, shapeless
+combine
+beetroot:0 + beetroot:0 + beetroot:0 + bowl:0
+= beetroot_soup:0:1
+
+craft
+@remove
+beetroot:0 + beetroot:0 + beetroot:0
+beetroot:0 + beetroot:0 + beetroot:0
+air + bowl:0 + air
+= beetroot_soup:0:1

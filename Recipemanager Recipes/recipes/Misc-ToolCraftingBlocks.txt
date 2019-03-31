@@ -1,0 +1,154 @@
+//Grass Path
+COMBINE
+//@ingredientcondition wood_spade
+@keepitem wood_spade | damage 1
+wood_spade:* + Grass
+= Grass_Path:0:1
+
+COMBINE
+//@ingredientcondition stone_spade
+@keepitem stone_spade | damage 1
+stone_spade:* + Grass
+= Grass_Path:0:1
+
+COMBINE
+//@ingredientcondition gold_spade
+@keepitem gold_spade | damage 1
+gold_spade:* + Grass
+= Grass_Path:0:1
+
+COMBINE
+//@ingredientcondition iron_spade
+@keepitem iron_spade | damage 1
+iron_spade:* + Grass
+= Grass_Path:0:1
+
+COMBINE
+//@ingredientcondition diamond_spade
+@keepitem diamond_spade | damage 1
+diamond_spade:* + Grass
+= Grass_Path:0:1
+
+//Flint
+COMBINE
+//@ingredientcondition wood_spade
+@keepitem wood_spade | damage 1
+wood_spade:* + Gravel
+= Flint:0:1
+
+COMBINE
+//@ingredientcondition stone_spade
+@keepitem stone_spade | damage 1
+stone_spade:* + Gravel
+= Flint:0:1
+
+COMBINE
+//@ingredientcondition gold_spade
+@keepitem gold_spade | damage 1
+gold_spade:* + Gravel
+= Flint:0:1
+
+COMBINE
+//@ingredientcondition iron_spade
+@keepitem iron_spade | damage 1
+iron_spade:* + Gravel
+= Flint:0:1
+
+COMBINE
+//@ingredientcondition diamond_spade
+@keepitem diamond_spade | damage 1
+diamond_spade:* + Gravel
+= Flint:0:1
+
+//Farmland
+COMBINE
+//@ingredientcondition wood_hoe
+@keepitem wood_hoe | damage 1
+wood_hoe:* + dirt:0
+= soil:0:1
+
+COMBINE
+//@ingredientcondition stone_hoe
+@keepitem stone_hoe | damage 1
+stone_hoe:* + dirt:0
+= soil:0:1
+
+COMBINE
+//@ingredientcondition gold_hoe
+@keepitem gold_hoe | damage 1
+gold_hoe:* + dirt:0
+= soil:0:1
+
+COMBINE
+//@ingredientcondition iron_hoe
+@keepitem iron_hoe | damage 1
+iron_hoe:* + dirt:0
+= soil:0:1
+
+COMBINE
+//@ingredientcondition diamond_hoe
+@keepitem diamond_hoe | damage 1
+diamond_hoe:* + dirt:0
+= soil:0:1
+
+//Coarse Dirt
+COMBINE
+//@ingredientcondition wood_hoe
+@keepitem wood_hoe | damage 1
+wood_hoe:* + dirt:1
+= dirt:0:1
+
+COMBINE
+//@ingredientcondition stone_hoe
+@keepitem stone_hoe | damage 1
+stone_hoe:* + dirt:1
+= dirt:0:1
+
+COMBINE
+//@ingredientcondition gold_hoe
+@keepitem gold_hoe | damage 1
+gold_hoe:* + dirt:1
+= dirt:0:1
+
+COMBINE
+//@ingredientcondition iron_hoe
+@keepitem iron_hoe | damage 1
+iron_hoe:* + dirt:1
+= dirt:0:1
+
+COMBINE
+//@ingredientcondition diamond_hoe
+@keepitem diamond_hoe | damage 1
+diamond_hoe:* + dirt:1
+= dirt:0:1
+
+//Cobblestone
+COMBINE
+//@ingredientcondition wood_pickaxe
+@keepitem wood_pickaxe | damage 1
+wood_pickaxe:* + stone:0
+= cobblestone:0:1
+
+COMBINE
+//@ingredientcondition stone_pickaxe
+@keepitem stone_pickaxe | damage 1
+stone_pickaxe:* + stone:0
+= cobblestone:0:1
+
+COMBINE
+//@ingredientcondition gold_pickaxe
+@keepitem gold_pickaxe | damage 1
+gold_pickaxe:* + stone:0
+= cobblestone:0:1
+
+COMBINE
+//@ingredientcondition iron_pickaxe
+@keepitem iron_pickaxe | damage 1
+iron_pickaxe:* + stone:0
+= cobblestone:0:1
+
+COMBINE
+//@ingredientcondition diamond_pickaxe
+@keepitem diamond_pickaxe | damage 1
+diamond_pickaxe:* + stone:0
+= cobblestone:0:1

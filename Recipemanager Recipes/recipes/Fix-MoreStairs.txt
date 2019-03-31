@@ -1,0 +1,97 @@
+craft
+@override
+wood:4 + air + air
+wood:4 + wood:4 + air
+wood:4 + wood:4 + wood:4
+= acacia_stairs:0:8
+
+craft
+@override
+wood:2 + air + air
+wood:2 + wood:2 + air
+wood:2 + wood:2 + wood:2
+= birch_wood_stairs:0:8
+
+craft
+@override
+brick:0 + air + air
+brick:0 + brick:0 + air
+brick:0 + brick:0 + brick:0
+= brick_stairs:0:8
+
+craft
+@override
+cobblestone:0 + air + air
+cobblestone:0 + cobblestone:0 + air
+cobblestone:0 + cobblestone:0 + cobblestone:0
+= cobblestone_stairs:0:8
+
+craft
+@override
+wood:5 + air + air
+wood:5 + wood:5 + air
+wood:5 + wood:5 + wood:5
+= dark_oak_stairs:0:8
+
+craft
+@override
+wood:3 + air + air
+wood:3 + wood:3 + air
+wood:3 + wood:3 + wood:3
+= jungle_wood_stairs:0:8
+
+craft
+@override
+nether_brick:0 + air + air
+nether_brick:0 + nether_brick:0 + air
+nether_brick:0 + nether_brick:0 + nether_brick:0
+= nether_brick_stairs:0:8
+
+craft
+@override
+purpur_block:0 + air + air
+purpur_block:0 + purpur_block:0 + air
+purpur_block:0 + purpur_block:0 + purpur_block:0
+= purpur_stairs:0:8
+
+craft
+@override
+quartz_block:* + air + air
+quartz_block:* + quartz_block:* + air
+quartz_block:* + quartz_block:* + quartz_block:*
+= quartz_stairs:0:8
+
+craft
+@override
+red_sandstone:* + air + air
+red_sandstone:* + red_sandstone:* + air
+red_sandstone:* + red_sandstone:* + red_sandstone:*
+= red_sandstone_stairs:0:8
+
+craft
+@override
+sandstone:* + air + air
+sandstone:* + sandstone:* + air
+sandstone:* + sandstone:* + sandstone:*
+= sandstone_stairs:0:8
+
+craft
+@override
+smooth_brick:* + air + air
+smooth_brick:* + smooth_brick:* + air
+smooth_brick:* + smooth_brick:* + smooth_brick:*
+= smooth_stairs:0:8
+
+craft
+@override
+wood:1 + air + air
+wood:1 + wood:1 + air
+wood:1 + wood:1 + wood:1
+= spruce_wood_stairs:0:8
+
+craft
+@override
+wood:0 + air + air
+wood:0 + wood:0 + air
+wood:0 + wood:0 + wood:0
+= wood_stairs:0:8

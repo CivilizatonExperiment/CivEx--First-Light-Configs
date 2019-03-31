@@ -1,0 +1,7 @@
+COMBINE
+potion:0
+= lingering_potion:0:1
+
+COMBINE
+lingering_potion:0
+= potion:0:1

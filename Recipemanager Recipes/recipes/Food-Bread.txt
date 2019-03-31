@@ -1,0 +1,8 @@
+//Better Bread - allows wheat to be smelted for bread, optionally hay blocks for 9 bread
+smelt
+wheat:0
+= bread:0:1
+
+//smelt
+//hay_block:0
+//= bread:0:9
